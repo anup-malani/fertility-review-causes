@@ -1,0 +1,908 @@
+{
+  "slug": "cultural-diffusion-mechanisms",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/cultural-diffusion-mechanisms-screen-frame.json",
+  "source_sha256": "e30f4aaaa7e25d448f33133fb73026265d7b12b8641fad410ca8c26655a8433f",
+  "seed": 941,
+  "batch_size": 40,
+  "n_records": 5095,
+  "n_batches": 128,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_001.json",
+      "input_sha256": "4dd898c2a1f498ab56fdad844c258081e987f33f2a29f6922bd73a8ff0929840",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_002.json",
+      "input_sha256": "915c1f30f19a14d6a9b1783c10847c27b436d8607bc84cf7a7eb067946b10713",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_003.json",
+      "input_sha256": "2d7a467aa0f603fe1ba2e9bdc1f257b4661d7228bf3ee4cc4e7f744e5574562f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_004.json",
+      "input_sha256": "292560ab48911d59762ee4f1bfc5d7241d96976736da9331cdae4a8ab3bc7076",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_005.json",
+      "input_sha256": "28e2169d027ea59151a6f03fc830824eb7e56f08f198872348b0a16573d17780",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_006.json",
+      "input_sha256": "0019f7e28e3327c6170029e16c311bad98adb7ff8a737676b926f40af75b7e6a",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_007.json",
+      "input_sha256": "27189633cc15b4176dd82132597895016c5261f732f0c8d6f818f972233a9e56",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_008.json",
+      "input_sha256": "b6f9cc2a4cdce1501fe7f8dde7f513f1106d23eb128abb2cb0d8f53c558d96e4",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_009.json",
+      "input_sha256": "4a7ee85877c079e20ac044d04e6bd28f59f52033e9acb1baf595eb335d9f5e36",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_010.json",
+      "input_sha256": "3e7f680c41235370fa32264a0eb590604cf54fd3a19b58955d9ed0da681ca13c",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_011.json",
+      "input_sha256": "11fd6b20bd67d3e2c1d5091564f4e3079b135e6688ddcc106fbfc976381f30bf",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_012.json",
+      "input_sha256": "1f9ca5a0178fbe8d472e61fe00dfc81b798ef5115b835a9bd101f508d193664c",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_013.json",
+      "input_sha256": "86803fe02430ad506004eb622bbee3eca69cf100de7a2d6749da7bd8b21cc0f5",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_014.json",
+      "input_sha256": "c4488bfe607e7a1538fc2399568ff2d39a655f4e4dd87a82e8dee6505e791f8f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_015.json",
+      "input_sha256": "82d81c1e5d6e49298836a7afe3d9fa59ea70a59b9f7ee21f4cdc9c86615254f5",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_016.json",
+      "input_sha256": "e131bdf04bc1e904a92ce9797e70f53158314c6b926ae157c52789af3e145cd5",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_017.json",
+      "input_sha256": "a824dc9d3454e84c61fca08c7a83df3ec88d6d80b2a04e634c9fba935921e25f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_018.json",
+      "input_sha256": "f8a779f9c01ce3dc14afc6aa936ace7f15ff1117681b02bcbfa4a02f24a02ed2",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_019.json",
+      "input_sha256": "bbff21367a29ab5a7fddc4e9644479f4a776915dd314b6ffe7c4bcdbdf966196",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_020.json",
+      "input_sha256": "05b9a97d3031e38770be7f9c8b5dbe9617de32466978c2b9171c9e03b43c5911",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_021.json",
+      "input_sha256": "44f64d451975156ad528cec9e6c5b163cded363f22676c7f24cf5b30504be430",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_022.json",
+      "input_sha256": "c7cd8c229adc9aa8959e3fd9127082d36634ca30df15ee8326ebe6b2372dc5f6",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_023.json",
+      "input_sha256": "b183b4415cd4fd738fbd15cd379f2b0be52e3a936ce4cc935cbdbebdc829f933",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_024.json",
+      "input_sha256": "3dd4877bcccd7bd8cdb0441ef2a0a0b47cc5c59f53853b36df7c0117645dfb47",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_025.json",
+      "input_sha256": "b3022e89e3e77fbd2c6dcc56180935694e9b04d876334265d58f922ffc1ebde8",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_026.json",
+      "input_sha256": "ecc6fef4144536860b4374506e85eb197239e6e39f5d7057f2ab4e7911cc78ab",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_027.json",
+      "input_sha256": "a6c7298c7ece60ae50994138b8c6757828eb249b4f59c20e91f7039c2ffd235e",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_028.json",
+      "input_sha256": "9fad271fdbf8cebf06d744a14118e7aaabdb84284ac5c212e7d0cde2f88e0ca2",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_029.json",
+      "input_sha256": "34c7d36efb7ec6599b00a059d27cf5280198cef8b7f422174b3185fc4c503e63",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_030.json",
+      "input_sha256": "815ce7c938cad11e1a4dbd5022cb1acb73543d588ded3c833d3949ddea2ca673",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_031.json",
+      "input_sha256": "081f5376f308ff98e0bbaeef6017cc72394ba9c440a7ceec120fde5fe287b64a",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_032.json",
+      "input_sha256": "6f3cb54acf630c37640b3de10f66645da55132005df88879596f8c2b756ffb42",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_033.json",
+      "input_sha256": "4ecc9127f1c25c9df4cb6ab006f30b753227cba261975fd107fcaee0de902a09",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_034.json",
+      "input_sha256": "7710acbe7d1a03f7aed7d459f94840d0c857c969a6effdb1987d859edee82054",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_035.json",
+      "input_sha256": "d640a43cf7464643a314e29eed81613d7c86f638bb00d32155193a521b7757e2",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_036.json",
+      "input_sha256": "266aec90d81ca90336c3e8eb95b9dba95ac63be2a425a7df2c1a08ed5dbf2aeb",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_037.json",
+      "input_sha256": "8979b5343baed5f2c02d69bfdd93214e6e1a378c621d8757f7e23ad3865032b9",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_038.json",
+      "input_sha256": "aefac363348d54d3f003aea7df1d0ffe6ee218fccca622975ac454bd5044e9d4",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_039.json",
+      "input_sha256": "51dd85fbfc2367833fb483c87feaf0d3a501e7de656407c9e9ab171a9d1a9272",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_040.json",
+      "input_sha256": "891733d060bef4e419527159ae0d6052ff74e72c1503e0b6e135283e2e1d8313",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_041.json",
+      "input_sha256": "f123ebf580ecb5552748db82f8efa8abef9d7b92da8d76279c034bf3912fe745",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_042.json",
+      "input_sha256": "1c1f8c6c8f6c319394ebc2b53e3815cbf3c87ac8b6efa7c10c9712612a905bbd",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_043.json",
+      "input_sha256": "9aa4311037a0edf1685d13b9e2c4788ef74bd160131109f76956ca627aafc3b7",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_044.json",
+      "input_sha256": "b1cbed1aaaa7b4201ec2aeed11e824966e743fcc1f4bc3ff2802ec217a1fa7c1",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_045.json",
+      "input_sha256": "0fc7ba8a35e3970d6f74b60c152a19de0757f464157680b0531d2ceb48f80fd0",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_046.json",
+      "input_sha256": "6e364bd85bccc5beb6d217ee00541889d2e6c882105d1d8570d0fe90a6a955c1",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_047.json",
+      "input_sha256": "0ea036213e43a55ea780e1c61c12d7a48f5d1e35b03d3c234e54a805e4e7b984",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_048.json",
+      "input_sha256": "353160ac72183b3e53e0a5640f6621b9d78f58164fe462d8a3339a3d07102956",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_049.json",
+      "input_sha256": "6746f713e8a004205733e5908981897bbd0184daa6ba36d8b899d2f83580a0f4",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_050.json",
+      "input_sha256": "0d9f3f91071310a7fd66873d13184156ab37be090e2fb7969929fa8193c8b00d",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_051.json",
+      "input_sha256": "e815ecaa71309104ef5040c14aad1499756d554ae220f89c7bce4dc63d1c54b3",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_052.json",
+      "input_sha256": "b8f81844fdab0f0419ef5a661bbd826e6fe93e5e47333ec4f15f95eb88f19814",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_053.json",
+      "input_sha256": "381db727bd80a1e0b3164e0fce5101501195ffb81308b8381daa8e138b6bf77f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_054.json",
+      "input_sha256": "7f3c7f29857a4ef250de8090ab9eae0c68e72ee14831c37ff5008183c1578ebd",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_055.json",
+      "input_sha256": "813bf1bab1b59e3684258b185b7efac87d0b37de82288e009ae7b4087972fdf7",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_056.json",
+      "input_sha256": "dbdd964839acf4a81f734d7dae32b4fb3845ab745d2463aba4f70437a66e92b3",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_057.json",
+      "input_sha256": "6346595e6d2519c742707b3e8b7e8f0bcdcb3dcef0a9f20f9d517fd059ca53d7",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_058.json",
+      "input_sha256": "9f7f7101b8659d35497562070eed7f5b6c8092ad8de2e446fa21c41e607f52c2",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_059.json",
+      "input_sha256": "bb8baf698360013982d76000b8ded4eb850a147df81248dd2e1b4eb04eff1d3c",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_060.json",
+      "input_sha256": "b69f38020fde2e22e44a5a0d5ed1508dc4e6448ed0bf36b0dc049c0bd3a09d59",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_061.json",
+      "input_sha256": "6c15157d318bb8bf3b072c2e92269ac61cc49f3d181c860e6686a83a37f37da0",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_062.json",
+      "input_sha256": "4e1daaf40b87ca4c5a6e4e6dbdf4b22f24b0b32a117accd48fab6457e103be69",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_063.json",
+      "input_sha256": "c6f4746aa7cededb6dd7e591b6087d6ca1e2afb5da86a05676952efab0b4e50e",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_064.json",
+      "input_sha256": "fca82a531afa5640988bbe8da92cbcaf9aa2e0191eaabc53744b5fa7eae67ffb",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_065.json",
+      "input_sha256": "c9d54d3a9f4796b7544c54417b0b8a7eeef8f6f51b9543726866973433538978",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_066.json",
+      "input_sha256": "dcbffc8d17930a9aaa89663c2da6efb9bbc337dffba9d2accb45691cd97463d2",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_067.json",
+      "input_sha256": "951ebb64d1ea29491d7aa124a8abce48f69ac8121a29660512a8674b500bcd31",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_068.json",
+      "input_sha256": "7089d5437c0ed06cb7c8d66296d2b706b7dce3889d50f364ac422e3ce315ac93",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_069.json",
+      "input_sha256": "c1fd3cd9f40628ec612b8a2ccf6816349b610b4f0f482b42904ae6c9616ead22",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_070.json",
+      "input_sha256": "02f41a975c568f6d26ebcabb486abbd30484abe99b8473aa6ff0435d572d96b0",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_071.json",
+      "input_sha256": "d2d715ce1c2931224cd203bbbc94feae942f04bcdfff92e0ccf13994921fa398",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_072.json",
+      "input_sha256": "8b264357af866b09076ca97c6cf9788a2d48abbeab6dc93f4970e2946efefb18",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_073.json",
+      "input_sha256": "e0fb1929238045c4a5e0521375e30f62caec2e710b519f6f61b973b08d9795c4",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_074.json",
+      "input_sha256": "6970a931780fa41b556cdecf74632248a9f25ea14996664000c3e15542b19882",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_075.json",
+      "input_sha256": "c30c97bb79a4454f21dd2a1bd22c877acaf3a19b450a1ed712a73f0acbbe38cf",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_076.json",
+      "input_sha256": "c994190d942e2eda655cd68964b27f3bb1882c9c4134b346eb3355d9a139cf02",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_076.json"
+    },
+    {
+      "batch": 77,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_077.json",
+      "input_sha256": "1ea6f28315e73e900b148149cc653a86c046904120dc6a32fe8d3ecdaf0e0986",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_077.json"
+    },
+    {
+      "batch": 78,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_078.json",
+      "input_sha256": "96c668e725f84667e69bc5fda157c0aeced6445635c0af8fb47cbe2f7697cd1f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_078.json"
+    },
+    {
+      "batch": 79,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_079.json",
+      "input_sha256": "03e9a6b6db852cedb2ba314097ec97d1dde1f299eb384888fb9b8dd5d0a64981",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_079.json"
+    },
+    {
+      "batch": 80,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_080.json",
+      "input_sha256": "7414e9f113116662566ab053fa820cb74505994889489b5b536839e3782096d1",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_080.json"
+    },
+    {
+      "batch": 81,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_081.json",
+      "input_sha256": "f10e103e5ea59eee437302f9290dcc9e91115e34db45d0d0cd583a0dc26e62c1",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_081.json"
+    },
+    {
+      "batch": 82,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_082.json",
+      "input_sha256": "be083cdd9a25d7b9fdf80719aadb9469c6479adb47520aabba38acfff77048c0",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_082.json"
+    },
+    {
+      "batch": 83,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_083.json",
+      "input_sha256": "0439705b0db571e8731b29a109b807106aa8b9acca6d160a42d8f69de3987398",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_083.json"
+    },
+    {
+      "batch": 84,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_084.json",
+      "input_sha256": "13186f2a35b7345f7d18fff7e303f7aa7934557a21ce0b69f2861af7b152cbc6",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_084.json"
+    },
+    {
+      "batch": 85,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_085.json",
+      "input_sha256": "f1298e3944dff7f5deac0f38fb1268ad53fa6d61e7c1a3fb3b28b35fb1e729d9",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_085.json"
+    },
+    {
+      "batch": 86,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_086.json",
+      "input_sha256": "57bf133c67e2285ffde611992b06196ec4a9315c60f25754a2637c6530bed9e9",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_086.json"
+    },
+    {
+      "batch": 87,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_087.json",
+      "input_sha256": "354b76387d0c26af9bd7d966f80d33a8ac1ddb1642c620d3610113ccf61eedaf",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_087.json"
+    },
+    {
+      "batch": 88,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_088.json",
+      "input_sha256": "3cc3dfdb8d4ceb23a4af32c2d1a65f36c377bc56a1b5a971216f322a5df3fc75",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_088.json"
+    },
+    {
+      "batch": 89,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_089.json",
+      "input_sha256": "84de119a3fb8a567066f10953910f2bd20fa03864a9cd8a301a02826398bbac3",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_089.json"
+    },
+    {
+      "batch": 90,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_090.json",
+      "input_sha256": "adfbde12b8677b6b171393e607901bc845dd233a25bd32f5c56d632db2b2f9fc",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_090.json"
+    },
+    {
+      "batch": 91,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_091.json",
+      "input_sha256": "a12f54a9cc496bec2b26c528d5fd263c3a3cea0e2963c600ace61dd4a9ac079f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_091.json"
+    },
+    {
+      "batch": 92,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_092.json",
+      "input_sha256": "978b2bb9b416a329818c3c39d6c28f6a938c21b327f7951391f0ff569119c7a0",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_092.json"
+    },
+    {
+      "batch": 93,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_093.json",
+      "input_sha256": "a3ff5a47ddc23e0c2a654c3e669a5797a0791ffe8f8f85fffa864de4609bf9a9",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_093.json"
+    },
+    {
+      "batch": 94,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_094.json",
+      "input_sha256": "9e62f8b829e87f52c0fd8071574e52fae8204a11e07112b6a19c00ab25e06cfc",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_094.json"
+    },
+    {
+      "batch": 95,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_095.json",
+      "input_sha256": "fb0c382f3482c7fca9fb68c8b20c0f8d22201c46c49bf06135d4029ffb90d354",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_095.json"
+    },
+    {
+      "batch": 96,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_096.json",
+      "input_sha256": "c33330a3ba155ab79971740a222ec4ab3e3325bf079dfeef34aff5595d4fdcab",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_096.json"
+    },
+    {
+      "batch": 97,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_097.json",
+      "input_sha256": "2008c01993b69ed698e04580ac9d6045d41ff45ce17bcb90fb0df6208ba6fb05",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_097.json"
+    },
+    {
+      "batch": 98,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_098.json",
+      "input_sha256": "0b9b0eaa635fef43481fe7cb98bb8d6499a8513d404141052ef865328d582151",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_098.json"
+    },
+    {
+      "batch": 99,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_099.json",
+      "input_sha256": "dbf850bd6f431c0d044df4aba7642d6f3b4375ec4a34429d9463794f1331a071",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_099.json"
+    },
+    {
+      "batch": 100,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_100.json",
+      "input_sha256": "9612ea75be79cbb3f10f2036c127d0923ef821eaa80b64152d8a59374e45860f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_100.json"
+    },
+    {
+      "batch": 101,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_101.json",
+      "input_sha256": "86cd9cc4801ea5e6bf10c87b521c29d66d541b08bc3f2ac103f35f49ffe5ae13",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_101.json"
+    },
+    {
+      "batch": 102,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_102.json",
+      "input_sha256": "ced81288fb1ccc3df33c2574aa915f2c8ec271984ec58d6522c9ce536a8803b6",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_102.json"
+    },
+    {
+      "batch": 103,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_103.json",
+      "input_sha256": "108bac38c71e6aea18c954c437678c715c64128db48238383bd369bd6bb44dd0",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_103.json"
+    },
+    {
+      "batch": 104,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_104.json",
+      "input_sha256": "84f056fdf14009c9867756a0e037c666a1f87eccf1fb7db4929fad4720b7cdab",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_104.json"
+    },
+    {
+      "batch": 105,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_105.json",
+      "input_sha256": "8793c1f455c5067e9c5bfe3758fef6b162e9a88b729c4352ba7d293855c3ff84",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_105.json"
+    },
+    {
+      "batch": 106,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_106.json",
+      "input_sha256": "b2bb84a7a6bd76643a93237a425206535acc73b4c6a296e6ee9a74fcfcfd7305",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_106.json"
+    },
+    {
+      "batch": 107,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_107.json",
+      "input_sha256": "011f06f60416a063d00770d8090c08df2f25cbf50f942a1e9d2e5dca3a0cf9be",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_107.json"
+    },
+    {
+      "batch": 108,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_108.json",
+      "input_sha256": "356a59d8d2289145d4c3f4fc94fd8787f883becb315e9e97e3b3624547c255a3",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_108.json"
+    },
+    {
+      "batch": 109,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_109.json",
+      "input_sha256": "e4208db8eae5192dd7af5aa8473f7d5e0cf8fba6242a40e2ae4160aa33d3d437",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_109.json"
+    },
+    {
+      "batch": 110,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_110.json",
+      "input_sha256": "9f717e55aa262654927d2ec557466635e632f20e798d82ba850fd99d59e8073c",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_110.json"
+    },
+    {
+      "batch": 111,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_111.json",
+      "input_sha256": "681351ce6aa559e99387cdee7178a731ab62a445238ddcfee5dded474d8db2d3",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_111.json"
+    },
+    {
+      "batch": 112,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_112.json",
+      "input_sha256": "9d469e2c254aa7fa74f6f71c1161f0aabc30fd0eb3950b312d19cafe8d3eec44",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_112.json"
+    },
+    {
+      "batch": 113,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_113.json",
+      "input_sha256": "89ab1af4cc04041c089b7439ed45f0453c25c8ead4cce415192fb9b71ca47eb1",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_113.json"
+    },
+    {
+      "batch": 114,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_114.json",
+      "input_sha256": "2d821597b73746d40d395c8040df2898614f5d0fba9b10fce02697f1b5c65148",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_114.json"
+    },
+    {
+      "batch": 115,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_115.json",
+      "input_sha256": "f6d654e5d12960e4853a9cc2e55102fdfd6baa47f5195b90bb95ea78cb90416f",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_115.json"
+    },
+    {
+      "batch": 116,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_116.json",
+      "input_sha256": "fa03d3cf365d9960266508455ea0e0d9d4a7aa0d3b90132afc5c586320bfb477",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_116.json"
+    },
+    {
+      "batch": 117,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_117.json",
+      "input_sha256": "b802c21d9cdafe01781d5c34198375faed076161774c24806974a2ec70fe3598",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_117.json"
+    },
+    {
+      "batch": 118,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_118.json",
+      "input_sha256": "bbd9cbce1c3fe1943b2b27a3ffbe932756279f84eab331baded0d76b48d98e47",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_118.json"
+    },
+    {
+      "batch": 119,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_119.json",
+      "input_sha256": "f10f92676b514bfc9a0e549a8692eaff5025cdeab1528ce529cc2dc791326c72",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_119.json"
+    },
+    {
+      "batch": 120,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_120.json",
+      "input_sha256": "6a7c1c5440fd7ed8be56aa7ce1e5fa21a335d13a594e35875e1f00a731b44422",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_120.json"
+    },
+    {
+      "batch": 121,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_121.json",
+      "input_sha256": "47eaf7c360ba96ddfcc41c8c277c80ee7becbcf63acdd6ce7a85592ec42092d0",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_121.json"
+    },
+    {
+      "batch": 122,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_122.json",
+      "input_sha256": "f0cd49de856a9b3e1c6217f1e8c102e70daf7901a506d6c48fcfdd2af7e495d4",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_122.json"
+    },
+    {
+      "batch": 123,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_123.json",
+      "input_sha256": "b64cda6258c0c7eb0d5ff3b4ef8ee9076a2dc84bafd7421e234c80df5c92e6ee",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_123.json"
+    },
+    {
+      "batch": 124,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_124.json",
+      "input_sha256": "15acd550f2863835bf314363f659fe87b4f1306b172126de0b2106d4bf6de7da",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_124.json"
+    },
+    {
+      "batch": 125,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_125.json",
+      "input_sha256": "9c8dcdb3c8b15baa328fa802edf85229dd5ba6ffadf2985e34d02252a3faacd2",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_125.json"
+    },
+    {
+      "batch": 126,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_126.json",
+      "input_sha256": "4c225053764e962920f5a113bd252228f044b46277d220fac91099058c0b5825",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_126.json"
+    },
+    {
+      "batch": 127,
+      "n": 40,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_127.json",
+      "input_sha256": "ca5523d51bdf59e12af166d7b1e5c64f8906fc6b92b87b10214239dcb671798e",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_127.json"
+    },
+    {
+      "batch": 128,
+      "n": 15,
+      "input": "temp/screen/cultural-diffusion-mechanisms/batch_128.json",
+      "input_sha256": "75960d0a3332047867a0977e6b485ede500a9013b4fa9d8327254ed43a075bd4",
+      "output": "temp/screen/cultural-diffusion-mechanisms/verdict_128.json"
+    }
+  ]
+}
