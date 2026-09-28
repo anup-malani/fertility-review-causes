@@ -25,3 +25,18 @@ are canon markers (expect_no_doi), not seeds.
 | Contraception as development? New evidence f | OFF_PROGRAM_CONTENT | True | 1.0 | 246 | 92 | False |
 | Cultural dynamics and economic theories of f | OFF_CONTENT_VALUE_SHIFT | True | 1.0 | 716 | 50 | False |
 | France needs children: pronatalism nationali | OFF_CONTENT_VALUE_SHIFT | True | 1.0 | 25 | 48 | False |
+
+## Production keyword frame merged (script 92)
+
+> An earlier run of 92 folded the bare `social network` and `social media` phrases into the channel
+> query; the merged frame was **7,580** (6,142 with abstracts), 2.6x the norm, with ~2,440 records driven
+> by those two terms. The frame probe had shown both are dominated by social-network-*analysis*
+> methodology and platform noise (their marginal gain is measured over a base already containing
+> `social interaction`/`peer effects`/`network effects`/`social contagion`), so they were dropped from
+> production recall — the genuine network channel is carried by the clean phrases + the Kohler-Behrman-
+> Watkins citation frame. The current frame below is the kept version.
+
+- Production keyword frame (channel AND outcome, clean frame + endorsed gainers): **2914** records.
+- Citation frame (script 91): **2254**.
+- Merged screen frame: **5095** unique (2914 keyword, 2254 citation, 73 in both); **3976** with abstracts.
+- Written to `cultural-diffusion-mechanisms-screen-frame.json` — the blinded-screen input.
