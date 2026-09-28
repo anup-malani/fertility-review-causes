@@ -1,0 +1,309 @@
+[
+  {
+    "title": "Soap operas and fertility: evidence from Brazil",
+    "authors": [
+      "Eliana La Ferrara",
+      "Alberto Chong",
+      "Suzanne Duryea"
+    ],
+    "year": 2012,
+    "family": "media-channel",
+    "provisional_cell": "PRIMARY_MEDIA_CHANNEL",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "American Economic Journal: Applied Economics 4(4):1-31. Registry seminal. The cleanest identified A.20 estimate: staggered Globo telenovela signal coverage (ambient small-family portrayal, not a family-planning message) lowers fertility. Content-agnostic CHANNEL \u2014 routed here by A.3's Wall 1.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2139/ssrn.3907394",
+      "matched_title": "Soap Operas and Fertility: Evidence from Brazil",
+      "matched_year": 2021,
+      "jaccard": 1.0
+    },
+    "doi": "10.2139/ssrn.3907394",
+    "doi_reaffirm": "blocked",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "The power of TV: cable television and women's status in India",
+    "authors": [
+      "Robert Jensen",
+      "Emily Oster"
+    ],
+    "year": 2009,
+    "family": "media-channel",
+    "provisional_cell": "PRIMARY_MEDIA_CHANNEL",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Quarterly Journal of Economics 124(3):1057-1094. Registry seminal. Staggered cable-TV introduction (general programming) lowers fertility and shifts women's status \u2014 the content-agnostic reach design that defines the A.20 media stream.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.3386/w13305",
+      "matched_title": "The Power of TV: Cable Television and Women's Status in India",
+      "matched_year": 2007,
+      "jaccard": 1.0
+    },
+    "doi": "10.3386/w13305",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "The density of social networks and fertility decisions: evidence from South Nyanza District Kenya",
+    "authors": [
+      "Hans-Peter Kohler",
+      "Jere R. Behrman",
+      "Susan C. Watkins"
+    ],
+    "year": 2001,
+    "family": "social-network",
+    "provisional_cell": "PRIMARY_NETWORK_PEER",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Demography 38(1):43-58. Registry seminal. Social-network density and structure shape contraceptive/fertility decisions \u2014 the peer/network CHANNEL, with the reflection problem as the central identification test.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1093/0199244596.003.0003",
+      "matched_title": "The Density of Social Networks and Fertility Decisions: Evidence from South Nyanza District, Kenya",
+      "matched_year": 2001,
+      "jaccard": 1.0
+    },
+    "doi": "10.1093/0199244596.003.0003",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "The decline of fertility in Europe",
+    "authors": [
+      "Ansley J. Coale",
+      "Susan Cotts Watkins"
+    ],
+    "year": 1986,
+    "family": "linguistic-boundary",
+    "provisional_cell": "PRIMARY_LINGUISTIC_BOUNDARY",
+    "provenance_channel": "hypothesis_canon",
+    "expect_no_doi": true,
+    "note": "Princeton University Press (book). Registry seminal. The European Fertility Project: marital-fertility decline clustered by language and religion and crossed borders on a timetable development does not reproduce \u2014 the community boundary as conduit. Book: expected Crossref-index miss.",
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1515/9781400886692-012",
+      "matched_title": "Chapter 7. Regional and Cultural Factors in the Decline of Marital Fertility in Europe",
+      "matched_year": 2017,
+      "jaccard": 0.462
+    },
+    "state": "expected_no_doi",
+    "identity_verified": false
+  },
+  {
+    "title": "From provinces into nations: demographic integration in Western Europe 1870-1960",
+    "authors": [
+      "Susan Cotts Watkins"
+    ],
+    "year": 1991,
+    "family": "linguistic-boundary",
+    "provisional_cell": "PRIMARY_LINGUISTIC_BOUNDARY",
+    "provenance_channel": "hypothesis_canon",
+    "expect_no_doi": true,
+    "note": "Princeton University Press (book). Registry seminal. Demographic integration along national/linguistic lines \u2014 the boundary-as-conduit reading of the Princeton signature. Book: expected Crossref-index miss.",
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1515/9781400861217.9",
+      "matched_title": "CHAPTER 2. Western Europe around 1870",
+      "matched_year": 1990,
+      "jaccard": 0.214
+    },
+    "state": "expected_no_doi",
+    "identity_verified": false
+  },
+  {
+    "title": "Social interactions and contemporary fertility transitions",
+    "authors": [
+      "John Bongaarts",
+      "Susan Cotts Watkins"
+    ],
+    "year": 1996,
+    "family": "social-network",
+    "provisional_cell": "MECHANISM_CHANNEL_DESCRIPTIVE",
+    "provenance_channel": "hypothesis_canon",
+    "note": "Population and Development Review 22(4):639-682. Registry seminal. The canonical statement that social interaction shapes the pace and geography of fertility transitions.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2307/2137804",
+      "matched_title": "Social Interactions and Contemporary Fertility Transitions",
+      "matched_year": 1996,
+      "jaccard": 1.0
+    },
+    "doi": "10.2307/2137804",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Social learning social influence and new models of fertility",
+    "authors": [
+      "Mark R. Montgomery",
+      "John B. Casterline"
+    ],
+    "year": 1996,
+    "family": "social-network",
+    "provisional_cell": "MECHANISM_CHANNEL_DESCRIPTIVE",
+    "provenance_channel": "hypothesis_canon",
+    "note": "Population and Development Review 22(Supplement):151-175. Distinguishes social learning from social influence \u2014 the two channel sub-mechanisms A.20 must keep separate; also names the reflection problem that gates the identified core.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2307/2808010",
+      "matched_title": "Social Learning, Social Influence, and New Models of Fertility",
+      "matched_year": 1996,
+      "jaccard": 1.0
+    },
+    "doi": "10.2307/2808010",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Demand theories of the fertility transition: an iconoclastic view",
+    "authors": [
+      "John Cleland",
+      "Christopher Wilson"
+    ],
+    "year": 1987,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_CONTENT_FERTILITY_CONTROL",
+    "provenance_channel": "routing_decoy_A3",
+    "routing_note": "The diffusion of fertility-CONTROL knowledge and its legitimacy specifically -> A.3. A.20 owns the channel it rides on, not the fertility-control content. Wall 1 (LOAD-BEARING).",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1080/0032472031000142516",
+      "matched_title": "Demand Theories of the Fertility Transition: An Iconoclastic View",
+      "matched_year": 1987,
+      "jaccard": 1.0
+    },
+    "doi": "10.1080/0032472031000142516",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Culture: an empirical investigation of beliefs work and fertility",
+    "authors": [
+      "Raquel Fernandez",
+      "Alessandra Fogli"
+    ],
+    "year": 2009,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_VERTICAL",
+    "provenance_channel": "routing_decoy_A19",
+    "routing_note": "Parent-to-child / ancestral-culture transmission of fertility (the epidemiological immigrant design) -> A.19 (vertical). A.20 owns horizontal channels. Wall 2.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.3386/w11268",
+      "matched_title": "Culture: An Empirical Investigation of Beliefs, Work, and Fertility",
+      "matched_year": 2005,
+      "jaccard": 1.0
+    },
+    "doi": "10.3386/w11268",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "The power of the pill: oral contraceptives and women's career and marriage decisions",
+    "authors": [
+      "Claudia Goldin",
+      "Lawrence F. Katz"
+    ],
+    "year": 2002,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_TECHNOLOGY",
+    "provenance_channel": "routing_decoy_A2",
+    "routing_note": "Access to the physical contraceptive METHOD (the Pill) as a technology -> A.2. A.20 owns the spread of norms through channels, not the device. Wall 3.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.3386/w7527",
+      "matched_title": "The Power of the Pill: Oral Contraceptives and Women's Career and Marriage Decisions",
+      "matched_year": 2000,
+      "jaccard": 1.0
+    },
+    "doi": "10.3386/w7527",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Contraception as development? New evidence from family planning in Colombia",
+    "authors": [
+      "Grant Miller"
+    ],
+    "year": 2010,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_PROGRAM_CONTENT",
+    "provenance_channel": "routing_decoy_A5",
+    "routing_note": "Exogenous family-planning PROGRAM supply (Profamilia) with a deliberate family-planning message -> A.5. A.20 owns content-agnostic media REACH, not the program's instructional content. Wall 4.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.3386/w11704",
+      "matched_title": "Contraception as Development? New Evidence from Family Planning in Colombia",
+      "matched_year": 2005,
+      "jaccard": 1.0
+    },
+    "doi": "10.3386/w11704",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Cultural dynamics and economic theories of fertility change",
+    "authors": [
+      "Ron Lesthaeghe",
+      "Johan Surkyn"
+    ],
+    "year": 1988,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_CONTENT_VALUE_SHIFT",
+    "provenance_channel": "routing_decoy_D1a",
+    "routing_note": "The diffuse secular/individualist value shift (the CONTENT / why demand fell) -> D.1.a. A.20 is agnostic to the message and owns only the vehicle. Wall 5.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2307/1972499",
+      "matched_title": "Cultural Dynamics and Economic Theories of Fertility Change",
+      "matched_year": 1988,
+      "jaccard": 1.0
+    },
+    "doi": "10.2307/1972499",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "France needs children: pronatalism nationalism and women's equity",
+    "authors": [
+      "Leslie King"
+    ],
+    "year": 1998,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_CONTENT_VALUE_SHIFT",
+    "provenance_channel": "routing_decoy_D1d",
+    "routing_note": "Nationalist-pronatalist ideology as the state-framing CONTENT -> D.1.d. A.20 owns the channel that would carry such a message, not the message. Wall 6.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1111/j.1533-8525.1997.tb02002.x",
+      "matched_title": "\"FRANCE NEEDS CHILDREN\":. Pronatalism, Nationalism and Women's Equity",
+      "matched_year": 1997,
+      "jaccard": 1.0
+    },
+    "doi": "10.1111/j.1533-8525.1997.tb02002.x",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  }
+]
