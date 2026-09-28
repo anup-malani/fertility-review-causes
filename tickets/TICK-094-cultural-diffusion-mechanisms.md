@@ -77,3 +77,32 @@ marker. **Decision:** A.20 confirmed the next-smallest genuinely-unstarted candi
 frame; the walls behave as the scope predicted; the frame is honestly built. **Next (paused for
 checkpoint):** the budget-heavy Stage-3 remainder — cold-start anchors → citation frame → production
 frame → blinded Haiku screen — the point at which D.1.d paused for the RA/PI checkpoint.
+
+**2026-09-28 — Stage 3 (remainder) built and run through the blinded screen (PAUSED at 121/128).**
+Pipeline ported from the D.1.d chain (90–96) and committed:
+- **Anchors (90):** 13, 0 ghosts (`*-cold-start-anchors.json`). 3 media/network empirical core (La Ferrara
+  2012, Jensen/Oster 2009, Kohler/Behrman/Watkins 2001) + 2 Princeton books (expect_no_doi) + 2 social-
+  interaction canon + 6 routing decoys (one per wall). The Brazil-novela/India-cable studies that were
+  D.1.d's decoys are A.20's core, as A.3's Wall 1 predicted.
+- **Citation frame (91):** 11/11 article anchors resolved to version of record (jaccard 1.0). Tier B = 2,254
+  (1,785 fwd, 469 back), 1,427 with abstracts. Forward-seeded on the 3 empirical anchors only.
+- **Production frame (92):** keyword channel 2,914 merged with citation frame → **screen frame 5,095**
+  (3,976 with abstracts). Bare `social network`/`social media` dropped from recall (probe showed SNA-
+  method/platform noise; folding them ballooned the frame to 7,580); network channel preserved via clean
+  phrases + citation frame. Decision documented in scope + tier-ab log.
+- **Screen (93–95):** 128 blinded batches (size 40, seed 941), A.20 rubric (channel-vs-content on all six
+  walls; reflection-problem rule → MECHANISM_CHANNEL_DESCRIPTIVE non-poolable). Haiku
+  (`claude-haiku-4-5-20251001`) via 95, resumable/fail-closed. **121/128 verdicts written; 7 remain:
+  batches 69, 70, 76, 77, 78, 127, 128.** Failure mode is transient: Haiku sometimes returns fewer rows
+  than the 40-record batch (e.g. batch 69 got 35), which trips the fail-closed count check; re-running
+  clears it (the runner skips valid existing verdicts). Verdicts live in gitignored
+  `temp/screen/cultural-diffusion-mechanisms/verdict_NNN.json` (reproducible from the committed frame).
+- **Assembler (96):** committed, NOT yet run (needs all 128). Pools RELEVANT ∩ (PRIMARY|MIXED) ∩
+  non-review/theory; identified core = NATURAL_EXPERIMENT (media rollout) or NETWORK_DESIGN.
+
+**RESUME FROM HERE:** run the 7 missing batches, e.g.
+`python3 source/build/goldset/95_a20_run_screen.py --batches 69,70,76,77,78,127,128 --retries 4 --command claude -p --model claude-haiku-4-5-20251001`
+(a couple may need a second pass); confirm with `94_a20_validate_screen.py --audit` (want valid 128); then
+`96_a20_assemble_screen.py`. That produces the tiers, pooling set, and wall-routing — the RA/PI checkpoint,
+the same point D.1.d paused at. Stages 4–14 (RA review, retrieval, extraction, RoB, synthesis, demsig,
+GRADE, chapter) remain.
