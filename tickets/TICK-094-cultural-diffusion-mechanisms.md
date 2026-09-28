@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/cultural-diffusion-mechanisms-*, extraction/cultural-diffusion-mechanisms-*, output/chapters/cultural-diffusion-mechanisms.md
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/cultural-diffusion-mechanisms-search-scope.md`
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -39,3 +39,23 @@ registered-construct completeness test and read the A.3 wall from both sides bef
 claim is trusted: A.20 owns the *channels of spread* (network architecture, media reach, community
 boundaries) independent of norm content, whereas A.3 owns the *social-learning of fertility control
 itself*. The scout number is a prior to be hardened, not a settled measurement.
+
+**2026-09-28 — Stage 2 done; Stage 3 prepared, PAUSED before the OpenAlex spend.**
+- **Stage 2 scope drafted:** `literature/search-logs/cultural-diffusion-mechanisms-search-scope.md`.
+  Parameter = the effect of the diffusion *channel* (social-network architecture, mass-media reach,
+  linguistic/cultural community boundaries) on fertility and on the pace/geography of its change, holding
+  fixed the *content* of the diffusing norm and the *reason* demand changed. Three streams: media channel
+  (Brazil *novela*, India cable TV), social-network/peer channel (Kohler-Behrman-Watkins), linguistic-
+  boundary channel (Princeton). FDT + SDT, no PM. Six walls declared; discriminator = channel vs.
+  content/cause on every one.
+- **The A.3 redundancy worry is largely resolved in A.20's favour before spending a cent:** A.3's own
+  Wall 1 (resolved 2026-09-18, TICK-088) deliberately routed the cleanest identified estimates —
+  La Ferrara/Chong/Duryea 2012 (Brazil) and Jensen/Oster 2009 (India) — **to A.20**. Those are A.20's
+  registered seminals and its identified core; A.20 owns the well-identified media-channel literature A.3
+  excluded as content-agnostic. Stage 3's job is to confirm the *identified* overlap with A.3 is thin.
+- **Stage 3 probe PREPARED, NOT RUN:** `source/build/goldset/89_a20_frame_probe.py` (ported from
+  `89_d1d`; py_compiled, all query terms comma-free, control-housing counter retained to validate on a
+  known positive). It prices the A.20 frame against its own conjoined constructs (completeness test),
+  reads all six walls from both sides, and counts the homonym load (physics `diffusion`, social-network
+  *analysis*, marketing `media`). **Paused before execution per the standing "pause before OpenAlex
+  spend" checkpoint** (405/52/89_d2c/89_d1d precedent) — awaiting the go-ahead to run.
