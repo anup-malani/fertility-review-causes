@@ -1,5 +1,5 @@
 # TICK-094: A.20 Cultural Diffusion Mechanisms
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `cultural-diffusion-mechanisms` — HYPOTHESES-v5.md §A.20
 **Parallel-safe:** yes
