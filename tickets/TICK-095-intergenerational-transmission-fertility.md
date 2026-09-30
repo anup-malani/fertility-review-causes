@@ -1,5 +1,5 @@
 # TICK-095: A.19 Intergenerational Transmission of Fertility Preferences
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `intergenerational-transmission-fertility` — HYPOTHESES-v5.md §A.19
 **Parallel-safe:** yes
