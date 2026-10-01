@@ -8,8 +8,8 @@
 **Touches:** literature/search-logs/breastfeeding-lactational-amenorrhea-*, extraction/breastfeeding-lactational-amenorrhea-*, output/chapters/breastfeeding-lactational-amenorrhea.md
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/breastfeeding-lactational-amenorrhea-search-scope.md`
+- [~] 3. Literature search and AI screening, both phases (§5.1) — **PAUSED before the OpenAlex frame-probe spend** (standing checkpoint); scope sets query blocks, walls, completeness check, and seed anchors ready to resume on RA/PI go-ahead
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
