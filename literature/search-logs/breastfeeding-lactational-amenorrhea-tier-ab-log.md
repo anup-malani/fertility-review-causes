@@ -26,3 +26,10 @@ for Victora 2016, the infant-health literature).
 | The effects of infant mortality on fertility | OFF_REVERSE_MORTALITY | True | 1.0 | 119 | 49 | False |
 | Age and infertility | OFF_FECUNDITY_CAPACITY | True | 1.0 | 705 | 38 | False |
 | Breastfeeding in the 21st century: epidemiol | OFF_INFANT_HEALTH | True | 1.0 | 8250 | 82 | False |
+
+## Production keyword frame merged (script 92)
+
+- Production keyword frame (spacing/amenorrhea-restricted channel AND outcome): **2550** records.
+- Citation frame (script 91): **998**.
+- Merged screen frame: **3399** unique (2550 keyword, 998 citation, 149 in both); **2700** with abstracts.
+- Written to `breastfeeding-lactational-amenorrhea-screen-frame.json` — the blinded-screen input.
