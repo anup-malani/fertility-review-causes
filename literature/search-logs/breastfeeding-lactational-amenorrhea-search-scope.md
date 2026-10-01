@@ -1,11 +1,46 @@
 # Search scope — breastfeeding and lactational amenorrhea
 
 **Hypothesis:** A.13 (HYPOTHESES-v5.md §A.13), slug `breastfeeding-lactational-amenorrhea`.
-**Ticket:** TICK-096. **Stage:** 2 (scope drafted). **Stage 3 (frame probe) is PAUSED** at the
-standing "pause before the OpenAlex spend" checkpoint — do not run the probe until the RA/PI
-go-ahead (405/52/A.20/A.19 precedent).
+**Ticket:** TICK-096. **Stage:** 3 frame probe RUN 2026-10-01 — **the "smallest" prior is REFUTED**
+(see next section). Awaiting the park-or-proceed decision before the cold-start anchors.
 
 ---
+
+## Stage 3 frame-probe result (2026-10-01) — the "smallest" prior is REFUTED
+
+Script `source/build/goldset/89_a13_frame_probe.py`; artifacts
+`literature/search-logs/a13-frame-probe-2026-10-01.{json,md}`. Counting only — no records retained.
+
+- **Control sound.** The C.2.c housing frame (a written chapter) prices at **164**, matching the A.19
+  probe's 164; the null-detector is calibrated.
+- **A.13 is not the smallest.** Narrow frame (lactational-amenorrhea mechanism ∧ fertility/interval)
+  = **577**; production frame (breastfeeding/amenorrhea topic ∧ outcome) = **5,495**. Even the narrow
+  reading exceeds A.14 coital frequency (**373**), and the production frame is *above every candidate
+  in the cross-field scout* (D.2.c 1,134, D.1.d 1,720, A.20 1,968, A.19 2,414, B.2 4,475). The
+  a-priori reasoning erred: "bounded physiological estimand" was treated as "small literature," but
+  breastfeeding-and-birth-spacing is one of the most-studied proximate determinants in demography
+  (every DHS carries breastfeeding + birth-interval data). The frame is genuine, not a homonym
+  artefact — the infant-health leak inside the frame is only 172, and bare "breastfeeding" is the
+  real exposure, not noise.
+- **Completeness test clean.** Genuine A.13 vocabulary adds honest signal (suckling +448,
+  proximate-determinants +454, Bongaarts +320, night-feeding +5; exclusive-breastfeeding /
+  breastfeeding-duration / LAM-method +0, subsumed). The generic inflaters are correctly excluded,
+  not folded: parity +7,859, lactation +5,379 (dairy), weaning +3,147, nursing +3,135 (profession),
+  prolactin +2,112 (endocrine).
+- **Walls navigable; contraception is the load-bearing one.** Overlap-with-frame / neighbour /
+  identified: A.2–A.6 **1,938 / 35,337 / 68**, A.22 349 / 4,751 / 12, A.14 139 / 640 / 6, A.1 643 /
+  8,283 / 39, A.15/B.3 35 / 7,164 / **0**, A.5/LAM 145 / 835 / 6. Every identified overlap is small,
+  so the routing rules hold; but the A.2–A.6 frame-level overlap (1,938 ≈ 35% of the frame) confirms
+  the natural-vs-deliberate-spacing wall (Wall 1) is the one that will do the work at screen.
+- **Identification markers** inside the frame: 181 records carry an identified-design phrase.
+
+**Decision (pending):** the probe did its job and refuted the ranking, as 404 did for A.6. A.13 is a
+legitimate, substantively important hypothesis with a mid-to-large frame (~577 narrow / ~5,495
+production) — comparable to A.19/A.20, **not** a quick win. Either proceed with A.13 on its merits
+(cold-start anchors next) or park it like A.6 (TICK-087) and probe the next bounded biological
+candidate (A.15 maternal age, A.16 paternal age, B.4 obesity, B.3 infectious disease) to find a
+genuinely small one — noting those are also a-priori guesses that now demand probe validation before
+any "smallest" claim.
 
 ## Causal claim
 
