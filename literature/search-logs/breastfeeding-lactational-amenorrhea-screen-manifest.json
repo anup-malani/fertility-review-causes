@@ -1,0 +1,607 @@
+{
+  "slug": "breastfeeding-lactational-amenorrhea",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/breastfeeding-lactational-amenorrhea-screen-frame.json",
+  "source_sha256": "5ff534fbabaedb5e5085ccf5c0a2a8b949b455ed1b70a5dfa488abafeaacd579",
+  "seed": 913,
+  "batch_size": 40,
+  "n_records": 3399,
+  "n_batches": 85,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_001.json",
+      "input_sha256": "278f18b667972d70bf864819bc1c8cd394c3e8b134bc6e545466051a5659207c",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_002.json",
+      "input_sha256": "647fe2d6cfeb1f92ba671e100f5e8b06d98fa9b3c4aa357ddd148d2c210a6ab9",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_003.json",
+      "input_sha256": "9a212b5de6e29d0d098084a0422b81030ffe621d988d11d5559eeb6e55ccd490",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_004.json",
+      "input_sha256": "8679795268f158d0e3b8d8264ef8b37bc6e5a3dda6e058e461b27dea16521230",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_005.json",
+      "input_sha256": "0adc0068551c24f0ea8a82f1d44afbb214990b8dae19b022338871d602bd28aa",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_006.json",
+      "input_sha256": "27fd9819f2e1680178913b50d12da73683df04f4f31e0d167f2bb8ca1debb42c",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_007.json",
+      "input_sha256": "5819e91703e855768c841150d9dd507b54396e894ace97ecc34ef562dca63dff",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_008.json",
+      "input_sha256": "93c6b612d311b9a467e4d7763f075cc136db3e289bd9ad946da928e1f5825105",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_009.json",
+      "input_sha256": "244f4c477d394c39db312a53711c00ad3f7a5d29335f7980c8f6d8e0e217a7d0",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_010.json",
+      "input_sha256": "da58da67d533c81be7cc3e6dbf15d7cf5647a11b7c0115e97c7dd6e20a039178",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_011.json",
+      "input_sha256": "07f0dcfb40c131a2ecbb4031a985c4b40d1f5b49ca093c35b94deb821b62d9a4",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_012.json",
+      "input_sha256": "e32575d524958013a8d21a87e93110f56a91d1d8ae9414663fc82f98122cc313",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_013.json",
+      "input_sha256": "eb7ecd04d225d65ec8d7f37398d4cdb025031df8dd06dc7c1beebd5f986576f5",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_014.json",
+      "input_sha256": "9b8587fa131683bc42f0a08c6a39379182d7ecb7f883a8236491cf972a3c30a5",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_015.json",
+      "input_sha256": "3a962fac0bbfafd03944c33611fa54702eff22f64526af3e73c573967d327387",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_016.json",
+      "input_sha256": "5e26a8fc0540e6ea4bc3b37d7018a4e18efdabcc4c8ec6e446b0165f6e1f0ae5",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_017.json",
+      "input_sha256": "8aba5591398a4fc6ce67dd524701e259f85ee529a29fcd5a46cf793fc501070e",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_018.json",
+      "input_sha256": "f7e827580c1626df657336ece1be02d69043182ff549700c17a165eb30fffa85",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_019.json",
+      "input_sha256": "059eae57ec02f0b95ede76673ee50004d4a57accc9100840c4cb942e5dde0e5e",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_020.json",
+      "input_sha256": "14977f462e7d33d4606a0e2bb64956bb4b0391c2c9d8ed841db9d430e35fece9",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_021.json",
+      "input_sha256": "83d7e788f8e7dcc772d94ad5b1ce1fd53d0e42bb5f1648b6c15977bf00c5bfe2",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_022.json",
+      "input_sha256": "491cf270b59b9bfca8209c5d87827e8454904cde79301a2f76b4d85a1c7c8354",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_023.json",
+      "input_sha256": "47389acef50bc3d366628a912b6e09e3c26a5c96561866a59a0282c68f69352e",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_024.json",
+      "input_sha256": "3b406b0c995d81f0affef232a96c1dc0baf0084f0079e4dcc49516da3d50798b",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_025.json",
+      "input_sha256": "458007a4c2f0f0b56351bfbc7bf560041e580987224f6346152ebbf34a295dab",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_026.json",
+      "input_sha256": "06c3c1151d03eba39d10cf0d08d552b47d650b1fa9fce3c78e4706def6a52a76",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_027.json",
+      "input_sha256": "869ad48552d1eb2c8c1f0229d49d74120147d8a6249323ecf0b4ddb1e44bee41",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_028.json",
+      "input_sha256": "0d3c41071263683943f313e30c34f0c416e770a2148df0a32453bdcd262c296d",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_029.json",
+      "input_sha256": "c59e384e8d05a52c7411fdf8af7dbaaedac6a514743be14dad3e756892bf6f6c",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_030.json",
+      "input_sha256": "4105cb3b1abf0844711dd35be53d71dac1b2ea774f3342299f663b6bd2be42f4",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_031.json",
+      "input_sha256": "4011a715f86682c8ca6c52739fc9097a37cbc0c139bc79a4d6c8fe15eea4e0d8",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_032.json",
+      "input_sha256": "3209f25eecd03ddc047aaec46871d30ba1ed93923abf412eae78df5634cf0eec",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_033.json",
+      "input_sha256": "27f8c76d0ff90b6221207b6a6443fa446a5adb05fedae86ecc63269c8ca5a66d",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_034.json",
+      "input_sha256": "d10f94606075c204b4873a71eacbcb9d9b2b2067965cdbfe540819a934f90b60",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_035.json",
+      "input_sha256": "4646a312d14374ea0f014920a827e7e2657e0fb950dba51c86b0aeb0385a3dae",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_036.json",
+      "input_sha256": "0a1f3a3500a9db0f7c1fdcfa2289b515b11282862cc893ee8dacbe086cd16b59",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_037.json",
+      "input_sha256": "672820d1345b3245e9cb3f4d8b75801e6aa270689bee578c914e1c52bd4863f5",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_038.json",
+      "input_sha256": "1d9a22feb6fd5e251e414e07c0323e2b8a28491ab43a7c887df284505c79d94b",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_039.json",
+      "input_sha256": "290890e6ac93dcd78cab9e411d7f58bd785a6851997adbb115d1671c7819ae1d",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_040.json",
+      "input_sha256": "7144e80fffb77e0d61d9492e9d7aa22239390988252c1c224a4238a79a2edaff",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_041.json",
+      "input_sha256": "7afff586f94e51fe12618f768eacd50f54db7536f3cbb64aa3f8101e255c92af",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_042.json",
+      "input_sha256": "5f33f4ed8167cbae83a88c1e4d54faac405e3141193b219788d7dbc2f2d4acae",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_043.json",
+      "input_sha256": "6b715298cf9e2914ad46e2b1d55570f973e33e9fa297529bb7dfacb9fbd58a81",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_044.json",
+      "input_sha256": "94cf676d106f394f871b5585a9306374b74d6838f870bcaf877ee8c1555c4b05",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_045.json",
+      "input_sha256": "b6cda2a9258b2203a5fcaaf41d708c5c1f603b84fb5d9e26279abe9961ca9522",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_046.json",
+      "input_sha256": "d657d907d94dacbbd6854745ef116bf7820cac7d9e0adf90c6719f7b12fa8e72",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_047.json",
+      "input_sha256": "ebd0e06468e16c1a9837854cdef5bebc4e96f9ed42c06f66e49a4bcf2a4df1fb",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_048.json",
+      "input_sha256": "daef3cee9205ce78ecfa3ea1d0a756e94ee30809b295e6f4dcbc1bcb4e8fd86b",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_049.json",
+      "input_sha256": "96ea84851ae1ea94a4905e1508402260d79b5aa3331f5fa34a8501ce6680bb42",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_050.json",
+      "input_sha256": "63decde31722398ca4c569b16364cb4165df330041cf91d527a637877a705f54",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_051.json",
+      "input_sha256": "be876be88c07575e91fbfa507938ace5c9eea7fccd6bf7dd737a0e36c35dfe44",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_052.json",
+      "input_sha256": "6ea108a5bc44b9d65ae6098d893f81a455b66d0095f0fa4d5dfe4bd72db80cf5",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_053.json",
+      "input_sha256": "599363703f21daeeecb6e9a2004ff35395ea20a160323e931413b016566ddb5b",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_054.json",
+      "input_sha256": "019472741eed48cd3e740525aba2f24eaf1630426b2dcdcea65a7bce99d3bab4",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_055.json",
+      "input_sha256": "34a9f749ba56dd2e1c60c8d8abb70d8cc820c2ffc7c295a6d15ec2201e58def3",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_056.json",
+      "input_sha256": "6354944ef4cb59057d97cc53f5f2c71925cac034dd17942606ef378592c7bba0",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_057.json",
+      "input_sha256": "0cb539b779b72a60cd62eab566445039a5fe6f2505f5d5dfb9d0052e0785da87",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_058.json",
+      "input_sha256": "813faf1cffc978c562da36e3ba3f02770de64ce6685707d778effd93c79250e3",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_059.json",
+      "input_sha256": "89434401532689b502579186e25232d04b634f0e0bb4a88c4b58d85039d7aa96",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_060.json",
+      "input_sha256": "f39a9ed34c50413993a1b95650c67272725e89e4e06e165fbb3c3ac2a738b09f",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_061.json",
+      "input_sha256": "34af7994c46c4d7ff41c4ea60fee05bc1b950389514f618c0015055606ed028d",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_062.json",
+      "input_sha256": "72ff706977228a1511088912cbc8753bd7893d82658b520f452fef0fe6a41714",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_063.json",
+      "input_sha256": "a8a64bf2a6b9aa10147b465908fe5d454dcfab343ca3e947965c97eafbb6ea7f",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_064.json",
+      "input_sha256": "60fe9a1fc056b165e4b26f0b43607fbb9e3e716271bc177e17a0a6110b000772",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_065.json",
+      "input_sha256": "55c4dd60687fbe9e1844c904a5bdb774fd5e06ebc89c3431961f9bf8d43b031b",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_066.json",
+      "input_sha256": "3d432b8d7bbb647c241d9f09b03e11dfc807777d16f2cde8da4c67170b4d225e",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_067.json",
+      "input_sha256": "985620d391d7ba85cb20222048cc6bd40087a5789789dbab6e3235b3a5e28a5d",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_068.json",
+      "input_sha256": "3a0ed451f3c251f339fdabbb7216a35cc1ec61a279931de8c645b56ba850ecf4",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_069.json",
+      "input_sha256": "cbc933172af90b11a349b70fa62ba1ed271c16121bd0c60cbcf87f1c2e5e9f1f",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_070.json",
+      "input_sha256": "e16d913ddc619e69ca62897ff7ec449f656807103d34704eb9a505f9fda1c71c",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_071.json",
+      "input_sha256": "4702c7b85a941ec6c49e711cfd6f2852ac5a1dd9cd9d4813d4d004ffc6e9d9fe",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_072.json",
+      "input_sha256": "0051ff5c7469d98819e7d60ef5666ad4b37da778d57fea48b737481b6eabfa57",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_073.json",
+      "input_sha256": "9cd5e85a6d2af4e32e5f591496692255a45d441a2720f4c2975fa3e20be49f01",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_074.json",
+      "input_sha256": "708695972d85a675c7eaf16180e0e7175525890430c501bcbf50cb9ab064b1eb",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_075.json",
+      "input_sha256": "2e764fa17ea88a7edb76c9e91ad5fa5622fda78f7132d132f47c0392940ead09",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_076.json",
+      "input_sha256": "34c6b759ab62a5922b6efff959f362bf84c6c9999f95bb12c26a822987d22caa",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_076.json"
+    },
+    {
+      "batch": 77,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_077.json",
+      "input_sha256": "ef5357796b5cb592d2227dadbbf2f07dca9f805aec75d1fac81561ba5e3f06d2",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_077.json"
+    },
+    {
+      "batch": 78,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_078.json",
+      "input_sha256": "9bedd8b94767c0baec00fb7feeccbea5345273d28863e5628119ecf377e29452",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_078.json"
+    },
+    {
+      "batch": 79,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_079.json",
+      "input_sha256": "9964ea9b917bc25a87f4b2a63b5fef18edfab0f05c133011081d2a0e74c51ecc",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_079.json"
+    },
+    {
+      "batch": 80,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_080.json",
+      "input_sha256": "986536905cdccb9a256f8c0dca1cb6cfabd820b5fcf205f7b885e4533a2e7e87",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_080.json"
+    },
+    {
+      "batch": 81,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_081.json",
+      "input_sha256": "99eab3bd873b2a0d7c0a955bcd058f05a621182e2627ad970f5cf8d47d13990b",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_081.json"
+    },
+    {
+      "batch": 82,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_082.json",
+      "input_sha256": "02e3d56bd07612e6f2b0a467513e247fa157f7a6dcb7ce2d08232f75f0a7234b",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_082.json"
+    },
+    {
+      "batch": 83,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_083.json",
+      "input_sha256": "74a8542061089c430c5e339953491af46e2de7e8d8c778878e6aa6f79161c53f",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_083.json"
+    },
+    {
+      "batch": 84,
+      "n": 40,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_084.json",
+      "input_sha256": "2c5935ef3df5937c984728900fc97d3b30d7e9ae7e11d585cc1b987fb429351e",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_084.json"
+    },
+    {
+      "batch": 85,
+      "n": 39,
+      "input": "temp/screen/breastfeeding-lactational-amenorrhea/batch_085.json",
+      "input_sha256": "01e181ba5c7a573694433b36d28f6cd2838685df3daff9e463ebe540311157b3",
+      "output": "temp/screen/breastfeeding-lactational-amenorrhea/verdict_085.json"
+    }
+  ]
+}
