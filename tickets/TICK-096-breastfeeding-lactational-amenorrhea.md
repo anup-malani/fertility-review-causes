@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/breastfeeding-lactational-amenorrhea-search-scope.md`
-- [~] 3. Literature search and AI screening, both phases (§5.1) — **PAUSED before the OpenAlex frame-probe spend** (standing checkpoint); scope sets query blocks, walls, completeness check, and seed anchors ready to resume on RA/PI go-ahead
+- [~] 3. Literature search and AI screening, both phases (§5.1) — frame probe RUN 2026-10-01 (**"smallest" REFUTED**: narrow 577 / production 5,495 > A.14's 373); cold-start anchors (11: 5 core + 6 decoys, 10 verified + 1 version-drift); citation frame (Tier B 998, 11/11 resolved); production frame (spacing/amenorrhea-restricted per RA/PI choice — keyword 2,550 + citation = **screen frame 3,399**); blinded Haiku screen (85 batches, seed 913) — pilot batch 1 valid, batches 2–85 running. Scripts `89–95_a13_*`
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
