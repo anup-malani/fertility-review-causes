@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+"""
+94_a13_validate_screen.py — A.13 (breastfeeding and lactational amenorrhea), screen validator.
+
+Provides `validate_record(record, expected_id, location)` for the A.13 blinded-screen output schema,
+imported by the runner (95). Mirrors 94_a19. Fail-closed on structure and controlled vocabularies; the
+verdict<->cell pairing is a rubric convention, not hard-enforced here, because pooling correctness lives in
+the assembler (96), which pools only (verdict==RELEVANT AND cell in PRIMARY|MIXED AND evidence not
+theory/review). MECHANISM_SUCKLING is deliberately NOT poolable (it establishes the physiological mechanism
+but not the demographic spacing magnitude), so it lives in MECHTHEORY, excluded from the pool.
+MIXED_CONTRACEPTION IS poolable, as a bounded estimate (a breastfeeding spacing effect not cleanly
+separated from concurrent contraception).
+"""
+import argparse, json, sys
+from collections import Counter
+from pathlib import Path
+
+SLUG = "breastfeeding-lactational-amenorrhea"
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parents[2]
+LOGS = REPO / "literature" / "search-logs"
+
+VERDICTS = {"RELEVANT", "UNCERTAIN", "NOT_RELEVANT"}
+PRIMARY = {"LAM_EFFICACY", "PRIMARY_AMENORRHEA", "PRIMARY_BIRTH_INTERVAL"}
+MIXED = {"MIXED_CONTRACEPTION"}
+MECHTHEORY = {"MECHANISM_SUCKLING", "THEORY"}
+OFF = {"OFF_CONTRACEPTION", "OFF_ENERGY_BALANCE", "OFF_ABSTINENCE", "OFF_REVERSE_MORTALITY",
+       "OFF_FECUNDITY_CAPACITY", "OFF_INFANT_HEALTH", "OFF_OUTCOME", "OFF_OTHER", "REVERSE"}
+CELLS = PRIMARY | MIXED | MECHTHEORY | OFF | {"INSUFFICIENT_INFO", "NA"}
+SUBMECH = {"LACTATIONAL_AMENORRHEA", "SUCKLING_PROLACTIN", "BIRTH_SPACING", "LAM_METHOD",
+           "NATURAL_FERTILITY", "NA"}
+IDENT = {"PROSPECTIVE_HAZARD", "EXPERIMENTAL_MECHANISM", "NATURAL_FERTILITY_RECON",
+         "ASSOCIATIONAL_ONLY", "UNCLEAR", "NA"}
+REQUIRED = {"id", "verdict", "estimand_cell", "sub_mechanism", "outcome", "identification",
+            "evidence_type", "reason"}
+
+
+def validate_record(record, expected_id, location):
+    errors = []
+    if not isinstance(record, dict):
+        return [f"{location}: verdict must be an object"]
+    missing = sorted(REQUIRED - set(record))
+    if missing:
+        errors.append(f"{location}: missing fields {missing}")
+    if record.get("id") != expected_id:
+        errors.append(f"{location}: id/order mismatch: expected {expected_id!r}, got {record.get('id')!r}")
+    verdict = str(record.get("verdict", "")).upper()
+    cell = str(record.get("estimand_cell", "")).upper()
+    sub = str(record.get("sub_mechanism", "")).upper()
+    ident = str(record.get("identification", "")).upper()
+    ev = str(record.get("evidence_type", "")).lower().strip()
+    if verdict not in VERDICTS:
+        errors.append(f"{location}: invalid verdict {verdict!r}")
+    if cell not in CELLS:
+        errors.append(f"{location}: invalid estimand_cell {cell!r}")
+    # sub_mechanism is descriptive only (never routes or pools), so it is not hard-gated on the
+    # controlled vocabulary; SUBMECH is the preferred set. Only require it be a nonblank string.
+    if not sub:
+        errors.append(f"{location}: sub_mechanism must be a nonblank string")
+    if ident not in IDENT:
+        errors.append(f"{location}: invalid identification {ident!r}")
+    if not ev:
+        errors.append(f"{location}: evidence_type must be a nonblank string")
+    if cell == "INSUFFICIENT_INFO" and verdict != "UNCERTAIN":
+        errors.append(f"{location}: INSUFFICIENT_INFO pairs only with UNCERTAIN")
+    for field in ("outcome", "reason"):
+        if not isinstance(record.get(field), str) or not record.get(field, "").strip():
+            errors.append(f"{location}: {field} must be a nonblank string")
+    return errors
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--audit", action="store_true")
+    ap.parse_args()
+    manifest = json.loads((LOGS / f"{SLUG}-screen-manifest.json").read_text())
+    valid = missing = bad = 0
+    cells = Counter()
+    for m in manifest["manifest"]:
+        out = REPO / m["output"]
+        inp = json.loads((REPO / m["input"]).read_text())
+        if not out.exists():
+            missing += 1
+            continue
+        try:
+            arr = json.loads(out.read_text())
+        except json.JSONDecodeError:
+            bad += 1
+            continue
+        errs = []
+        if not isinstance(arr, list) or len(arr) != len(inp):
+            errs.append(f"batch {m['batch']:03d}: count mismatch")
+        else:
+            for i, (rec, paper) in enumerate(zip(arr, inp), 1):
+                errs += validate_record(rec, paper["id"], f"batch {m['batch']:03d} row {i}")
+                if isinstance(rec, dict) and str(rec.get("verdict", "")).upper() != "NOT_RELEVANT":
+                    cells[str(rec.get("estimand_cell", "")).upper()] += 1
+        if errs:
+            bad += 1
+            for e in errs[:5]:
+                print(f"ERROR: {e}", file=sys.stderr)
+        else:
+            valid += 1
+    print(f"valid batches {valid}, missing {missing}, bad {bad}")
+    if cells:
+        print("non-NOT_RELEVANT cell tally:", dict(cells.most_common()))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

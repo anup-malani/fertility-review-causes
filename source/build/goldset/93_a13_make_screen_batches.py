@@ -17,7 +17,7 @@ Bailey 2006 -> OFF_CONTRACEPTION (A.2); Frisch & McArthur 1974 -> OFF_ENERGY_BAL
 Caldwell & Caldwell 1977 -> OFF_ABSTINENCE (A.14); Palloni & Rafalimanana 1999 -> OFF_REVERSE_MORTALITY
 (A.1); Menken/Trussell/Larsen 1986 -> OFF_FECUNDITY_CAPACITY (A.15); Victora 2016 -> OFF_INFANT_HEALTH
 (the homonym). The empirical core must surface PRIMARY: Kennedy & Visness 1992 -> LAM_EFFICACY;
-Konner & Worthman 1980 -> PRIMARY_BIRTH_INTERVAL; Howie & McNeilly 1982 -> PRIMARY_SUCKLING_MECHANISM.
+Konner & Worthman 1980 -> PRIMARY_BIRTH_INTERVAL; Howie & McNeilly 1982 -> MECHANISM_SUCKLING.
 
 Inputs : literature/search-logs/{slug}-screen-frame.json
 Outputs: temp/screen/{slug}/batch_NNN.json, RUBRIC.md
@@ -122,8 +122,9 @@ amenorrhea / birth-interval / natural-fertility outcome for the MOTHER must be p
   amenorrhea / postpartum anovulation / return of menses or ovulation (prospective cohort or hazard).
 - `PRIMARY_BIRTH_INTERVAL`: breastfeeding regime -> birth / interbirth / interpregnancy interval, or the
   natural-fertility (C_i) level (micro or historical-reconstitution).
-- `PRIMARY_SUCKLING_MECHANISM`: suckling pattern (frequency, night feeds) -> prolactin / ovarian suppression
-  -> delayed ovulation (physiological or experimental). RELEVANT; establishes the mechanism.
+- `MECHANISM_SUCKLING`: suckling pattern (frequency, night feeds) -> prolactin / ovarian suppression
+  -> delayed ovulation (physiological or experimental). RELEVANT; establishes the mechanism but does not
+  estimate the demographic spacing magnitude, so it is NOT pooled.
 - `MIXED_CONTRACEPTION`: a breastfeeding spacing / fertility effect that cannot be separated from concurrent
   deliberate contraception. RELEVANT; a bound. Cross-ref A.2.
 - `THEORY`: proximate-determinants / C_i model or formal natural-fertility model with no own empirical

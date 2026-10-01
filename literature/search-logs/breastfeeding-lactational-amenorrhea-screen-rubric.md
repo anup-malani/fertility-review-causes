@@ -84,8 +84,9 @@ amenorrhea / birth-interval / natural-fertility outcome for the MOTHER must be p
   amenorrhea / postpartum anovulation / return of menses or ovulation (prospective cohort or hazard).
 - `PRIMARY_BIRTH_INTERVAL`: breastfeeding regime -> birth / interbirth / interpregnancy interval, or the
   natural-fertility (C_i) level (micro or historical-reconstitution).
-- `PRIMARY_SUCKLING_MECHANISM`: suckling pattern (frequency, night feeds) -> prolactin / ovarian suppression
-  -> delayed ovulation (physiological or experimental). RELEVANT; establishes the mechanism.
+- `MECHANISM_SUCKLING`: suckling pattern (frequency, night feeds) -> prolactin / ovarian suppression
+  -> delayed ovulation (physiological or experimental). RELEVANT; establishes the mechanism but does not
+  estimate the demographic spacing magnitude, so it is NOT pooled.
 - `MIXED_CONTRACEPTION`: a breastfeeding spacing / fertility effect that cannot be separated from concurrent
   deliberate contraception. RELEVANT; a bound. Cross-ref A.2.
 - `THEORY`: proximate-determinants / C_i model or formal natural-fertility model with no own empirical
