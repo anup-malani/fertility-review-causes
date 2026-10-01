@@ -1,5 +1,5 @@
 # TICK-096: A.13 Breastfeeding and Lactational Amenorrhea
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `breastfeeding-lactational-amenorrhea` — HYPOTHESES-v5.md §A.13
 **Parallel-safe:** yes
