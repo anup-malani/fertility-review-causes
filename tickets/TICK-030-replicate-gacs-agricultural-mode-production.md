@@ -1,5 +1,5 @@
 # TICK-030: Replicate GACS for agricultural mode of production
-**Status:** open
+**Status:** in-progress
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** --
@@ -25,3 +25,11 @@ and preserve reproducible search and recall artifacts.
 - 2026-07-16, Alexandra: Released before search implementation at the user's request so the linked
   child-labor-laws/compulsory-schooling hypothesis can be searched first. No hypothesis-specific
   production artifacts had been created.
+- 2026-10-04, Shravan: Reclaimed as the next-smallest unstarted hypothesis (frame-probe union frame
+  1811, the smallest candidate with no branch/search-log/extraction). Stage 2 search scope drafted:
+  `literature/search-logs/agricultural-mode-of-production-search-scope.md` (DRAFT, not frozen). The
+  scope establishes the chapter's central identification problem — the forager–agriculturalist
+  fertility gap is overdetermined by the A.13 lactational-amenorrhea and nutrition-energy channels, so
+  a bare cross-subsistence correlation is off-cell — plus the Boserup reverse-causal (density →
+  intensification) threat, eight boundary walls, estimand cells, required tags, and the cold-start
+  plan. Next: build and existence-verify the cold-start gold anchor set.
