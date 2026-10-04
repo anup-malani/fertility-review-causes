@@ -20,6 +20,7 @@ import importlib.util
 import json
 import os
 import re
+import signal
 import subprocess
 import sys
 import tempfile
@@ -66,6 +67,31 @@ def strip_code_fence(text):
     text = text.strip()
     match = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", text, flags=re.DOTALL | re.IGNORECASE)
     return match.group(1).strip() if match else text
+
+
+def run_model(command, prompt, timeout, cwd):
+    """Run the model with a HARD timeout. subprocess.run(timeout=) only SIGKILLs the direct child, so
+    if `claude` spawns a grandchild that inherits the stdout pipe, communicate() deadlocks waiting for
+    EOF even after the child dies (the 17-min hang observed on the first run). Launch the child in its
+    own session (process group) and kill the WHOLE group on timeout, then drain.
+
+    Returns (returncode, stdout, stderr, timed_out). returncode is None on timeout.
+    """
+    proc = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE, text=True, cwd=cwd, start_new_session=True)
+    try:
+        out, err = proc.communicate(input=prompt, timeout=timeout)
+        return proc.returncode, out, err, False
+    except subprocess.TimeoutExpired:
+        try:
+            os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+        except (ProcessLookupError, PermissionError):
+            pass
+        try:
+            proc.communicate(timeout=30)
+        except Exception:
+            pass
+        return None, "", "", True
 
 
 def validate_payload(payload, inputs, validator, label):
@@ -120,7 +146,8 @@ def main():
     parser.add_argument("--audit", action="store_true", help="show batch readiness; invoke nothing")
     parser.add_argument("--batches", help="comma/range selection, e.g. 1-3,8")
     parser.add_argument("--force", action="store_true", help="replace already-valid selected outputs")
-    parser.add_argument("--timeout", type=int, default=900, help="seconds per batch (default 900)")
+    parser.add_argument("--timeout", type=int, default=240,
+                        help="seconds per batch before killing the model process group (default 240)")
     parser.add_argument("--retries", type=int, default=4, help="model attempts per batch (default 4)")
     parser.add_argument("--command", nargs=argparse.REMAINDER,
                         help="authorized model argv, e.g. --command claude -p")
@@ -180,23 +207,22 @@ def main():
             ok = False
             for attempt in range(1, args.retries + 1):
                 started = time.monotonic()
-                try:
-                    # Neutral cwd: keep the nested model out of the project dir (settings/hook noise).
-                    result = subprocess.run(command, input=prompt, text=True, capture_output=True,
-                                            timeout=args.timeout, cwd=tempfile.gettempdir())
-                except subprocess.TimeoutExpired:
-                    attempts.append({"attempt": attempt, "status": "timeout", "seconds": args.timeout})
-                    print(f"batch {number:03d} try {attempt}: TIMEOUT", file=sys.stderr)
-                    continue
+                # Neutral cwd: keep the nested model out of the project dir (settings/hook noise).
+                returncode, stdout, stderr, timed_out = run_model(
+                    command, prompt, args.timeout, tempfile.gettempdir())
                 seconds = round(time.monotonic() - started, 2)
-                if result.returncode != 0:
+                if timed_out:
+                    attempts.append({"attempt": attempt, "status": "timeout", "seconds": seconds})
+                    print(f"batch {number:03d} try {attempt}: TIMEOUT (killed group)", file=sys.stderr)
+                    continue
+                if returncode != 0:
                     attempts.append({"attempt": attempt, "status": "model_error",
-                                     "returncode": result.returncode, "seconds": seconds,
-                                     "stderr_tail": result.stderr[-500:]})
-                    print(f"batch {number:03d} try {attempt}: model exit {result.returncode}", file=sys.stderr)
+                                     "returncode": returncode, "seconds": seconds,
+                                     "stderr_tail": stderr[-500:]})
+                    print(f"batch {number:03d} try {attempt}: model exit {returncode}", file=sys.stderr)
                     continue
                 try:
-                    payload = json.loads(strip_code_fence(result.stdout))
+                    payload = json.loads(strip_code_fence(stdout))
                 except json.JSONDecodeError as exc:
                     attempts.append({"attempt": attempt, "status": "invalid_json",
                                      "seconds": seconds, "error": str(exc)})
