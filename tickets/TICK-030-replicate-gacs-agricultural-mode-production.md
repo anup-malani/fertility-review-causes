@@ -42,3 +42,16 @@ and preserve reproducible search and recall artifacts.
   `agricultural-mode-of-production-cold-start-anchors.{json,md}`. Branch pushed to origin. Next GACS
   stage: Tier-B orthogonal frame (citation snowball) → discriminative terms → CV breadth → production
   query → live search + screen.
+- 2026-10-04, Shravan: Stage A4 Tier-A/B frame built (`90_c3a_tier_ab_frame.py`, adapts 65): all 21
+  anchors resolved in OpenAlex, **Tier A = 12 empirical seeds**, **Tier B = 4,756** deduped candidates
+  (3,066 w/ abstracts, 0 deferred). Stage A5 screen apparatus built: `91_c3a_make_screen_batches.py`
+  (119 blinded batches of 40, seed 301), `92_c3a_validate_screen.py` (fail-closed validator+assembler),
+  `93_c3a_run_screen.py` (resumable runner; adds neutral-cwd + per-batch-retry hardening). Rubric
+  validated on **pilot batch 1 (40/40 valid; walls fire — OFF_NUTRITION_B/OFF_WEALTH_FLOWS/REVERSE
+  present)**.
+  **BLOCKER (open): the full screen cannot run unattended here.** Nested `claude -p` hangs indefinitely
+  on some batches (observed one call alive 17+ min, past the 900s subprocess timeout, which did not
+  kill it). Full screen stopped after 1/119 batches. The instrument is complete and committed; the
+  screen needs either (a) a hardened runner (process-group kill + shorter timeout) in a reliable
+  environment, or (b) an API-key-based scorer instead of the nested CLI. Everything downstream
+  (assemble → discriminative terms → production query → live search) waits on the screened frame.
