@@ -33,3 +33,12 @@ and preserve reproducible search and recall artifacts.
   a bare cross-subsistence correlation is off-cell — plus the Boserup reverse-causal (density →
   intensification) threat, eight boundary walls, estimand cells, required tags, and the cold-start
   plan. Next: build and existence-verify the cold-start gold anchor set.
+- 2026-10-04, Shravan: Stage A3 cold-start gold anchor set built and existence-verified via
+  `source/build/goldset/89_c3a_cold_start_anchors.py` (adapts the B.1 builder; no DOI hand-asserted —
+  live Crossref match + doi.org re-affirm, three-state gate). 21 candidates → **16 verified live DOIs,
+  0 flagged, 5 expected pre-DOI book misses** (Boserup 1965, Netting 1993, Lee 1979, Howell 2010,
+  Caldwell 1982). Value-channel empirical core 6/6 verified; both load-bearing routing decoys (A.13
+  Konner & Worthman 1980, nutrition Ellison et al. 1993) verified. Artifacts:
+  `agricultural-mode-of-production-cold-start-anchors.{json,md}`. Branch pushed to origin. Next GACS
+  stage: Tier-B orthogonal frame (citation snowball) → discriminative terms → CV breadth → production
+  query → live search + screen.
