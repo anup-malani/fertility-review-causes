@@ -1,0 +1,856 @@
+{
+  "slug": "agricultural-mode-of-production",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/agricultural-mode-of-production-tier-b-frame.json",
+  "source_sha256": "5cde07dae544f743d2316ecda4ae4979c24c6c94020d2f18898ef6625dca3cab",
+  "seed": 301,
+  "batch_size": 40,
+  "records": 4756,
+  "batches": 119,
+  "records_with_abstract": 3077,
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "cited_by_count",
+    "discovery_channels",
+    "seed_ids",
+    "gold_status"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_001.json",
+      "input_sha256": "d8a4382dad044666e0dd1171a2a239cd71f32e1a44f8010a29c85f407642f3df",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_002.json",
+      "input_sha256": "7e29efacdefd33944c0b53223ca3a8c3d1cedf2f198724542ed8b83e4fdc7142",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_003.json",
+      "input_sha256": "da870715ecf291925fbc84da3cb63585aebabcfdb677c9833abc2b8bfaf0ae4c",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_004.json",
+      "input_sha256": "1e80d9994e3d7ad1da30be340a6ff50acfa90f8563b53f5b8ac52dd9fbfdc614",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_005.json",
+      "input_sha256": "b84f530d715c1ac6df578bbff7ed3f924b84e893a6568aa73e3466096e7af954",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_006.json",
+      "input_sha256": "a1499fcb489b8bc179dd2117b229ceb7bed53863bc47a7e4420fd6fd7b864fbb",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_007.json",
+      "input_sha256": "ffb94e1831fb8c07ac604737375ae68505ce566bdca9f2fceafd26f460ab07c6",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_008.json",
+      "input_sha256": "f43c7bceb036e62a1ba575679c2611c02409d219975e6ee13d8567185307118a",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_009.json",
+      "input_sha256": "6f0b0152f08af3d7e93b8fb306d0c07b67aab437192da9c5a527ea005f90e99a",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_010.json",
+      "input_sha256": "2bb6a3788fc9e9c2dba6db69414686b4c3d49b205aae9aa13cd91f5b153cbdab",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_011.json",
+      "input_sha256": "5091ba6d8cc45d82d7f1b543747184fdedb214558c63709c42a8e0eb764e4500",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_012.json",
+      "input_sha256": "f2ec98991b26befd4aad6ae6c0fccf32637f695d7b8f392625b9f4465e713d13",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_013.json",
+      "input_sha256": "59c4d52811c80fb5c348c18356c968be8ce8e74c0b48f4af03b9a17fd0d3ecf5",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_014.json",
+      "input_sha256": "eb88322d1d6ecae3aaa45f8acfda2ef6747e86422b9c3b94eb6e50f170cd7394",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_015.json",
+      "input_sha256": "48b19129f158f568ebe5c2d4a863db2e9f0d598b4b69ca8202396a29de52c193",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_016.json",
+      "input_sha256": "62970baa3805bb5818d535a93e57157b6cfb72d55aeee5941dfa0defa90d508b",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_017.json",
+      "input_sha256": "1f600b51806d35ee62edd534232315c96a922bc1740463a23d45ee1f22668d00",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_018.json",
+      "input_sha256": "76fcbe784fa2bd22debc5b542bed11f564c1dd208b072ad2a0713cbc5b7ca08b",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_019.json",
+      "input_sha256": "4f3a7e9771a754a778ed12990d04c795a436f71483d3e3ee7c68757fb51551a2",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_020.json",
+      "input_sha256": "9c7cb8d1b165437c3d11635e820cc1e25242dd9b3e858cd14689bd9f7d2e332e",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_021.json",
+      "input_sha256": "afd8a10fc7d7b3323e4deb95a3f15fd44ad232e02a16159e607908f7c15990d3",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_022.json",
+      "input_sha256": "fa471d95517b89cf93e8ba2420a3b1f0867965618c81bbd6b975161d563338b1",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_023.json",
+      "input_sha256": "67da97c43708651b6d0162438bce0bb78ddd70d83accc51fd4152b16f64d0cd2",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_024.json",
+      "input_sha256": "e88229418e1279e2606fadb4639c708e7c38c5a7bc8f1832a55e4a3b09215919",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_025.json",
+      "input_sha256": "6547fa8362849c8bd626a5ac6d37e9e83a8377bb712a3464f35cc20bcbc37c9f",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_026.json",
+      "input_sha256": "e17c98e2ba988489aedea8301666d11e3111a0e8882dd2976a15ae3bb50af9a2",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_027.json",
+      "input_sha256": "0e0b162aa9620bf30c725b90652fbcf1c7c786ea34170130dd5089366ecf9d5e",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_028.json",
+      "input_sha256": "9330875f41f402a06c0633a73c72ffeeffd78e1b3cd0d526107565c7db3ea261",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_029.json",
+      "input_sha256": "82fe31e3ed7efd688c27c22e262810725a20df0cdfd8a4cbf80f035046426500",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_030.json",
+      "input_sha256": "3b9f42d443f7fc1ede42d60a1afd3df268fe8a98c1c142497c65b779e62aec17",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_031.json",
+      "input_sha256": "fda299954cfa842690f49aeacf7127f5581f11e153c8c341a53c4186959fa01f",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_032.json",
+      "input_sha256": "c9d3e3b1a050552ec122fa430f872b9528d94599070a0219f1b5bd25354f01f7",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_033.json",
+      "input_sha256": "3b63f5ec9ffab8de7ae950250589cd07ea24cd119663273165af2dbbff264c6b",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_034.json",
+      "input_sha256": "0f5708c478338ecdb10000c8f4e224985c6457ecd2224b67d6ac4bf7226a1e48",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_035.json",
+      "input_sha256": "d0789692280721568cbe2c6d852e19af820dd7291d8e38f092f6c8772fdf0f47",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_036.json",
+      "input_sha256": "d4f75af8102128d87ef537ba447f9ad6a8342abfcbcd7eb697e08add6f7a4d5f",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_037.json",
+      "input_sha256": "a1ce4dafb331dd64550cb9a53ec5f87cad2d81aab59bd0c755233540341c37cc",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_038.json",
+      "input_sha256": "80d243ef7336b880e5e1e1485f64b7a2d51152c7f003388321feb0bcae6374ad",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_039.json",
+      "input_sha256": "8b3da1083df256acf01cd91260f7329eb2f6ac271543a5e7c81d9bd19ae98736",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_040.json",
+      "input_sha256": "b918b8194e6e29cc32a19b49a0dddb790c8347b645ad33e1de26ed646180ad8f",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_041.json",
+      "input_sha256": "bdfaf3ede91a7064b7ec21de169a507bca7cd0abd2311fe08c807d880f1ce415",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_042.json",
+      "input_sha256": "2fe496e10b37a25dbdb3b87254fc0035473ea0318ade7a2b6eee00cb1e230a22",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_043.json",
+      "input_sha256": "0ca41396974737317766b1c8b64282cf6919002c0b024fcd2b0fbffec9ec06c8",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_044.json",
+      "input_sha256": "d3b98a99a9ce43da255499c2e9fd4d14f62d87243f408f6d8de703c89dfe3cfc",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_045.json",
+      "input_sha256": "a1a4b45f4c0f64098721838ae463f3d3c9e577ddbff5f05872158f64f2b75c84",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_046.json",
+      "input_sha256": "d45969f3c590508726fe4ee9e691c943e8b004f4a373f0f993bdda8834d08311",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_047.json",
+      "input_sha256": "534f93316268f84c4b44f33bc1dd7f4b3ddc6f0586fe762207cb929463261ae9",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_048.json",
+      "input_sha256": "decb359f7020273affb6449337108f5ac5fe1f10a479bdd07770bb1c083a7350",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_049.json",
+      "input_sha256": "619255e1fb0998cde5673eaf6749fec71ef62ef76037e429d620b9fd217ec864",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_050.json",
+      "input_sha256": "4d3b3ae4747d692a9e9167b2f0e906a387a79eca3d20153724564938fac17108",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_051.json",
+      "input_sha256": "94f00c868eac7111a5c154429b48f1f2d87163055211f0a38a3c24630eecdeaa",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_052.json",
+      "input_sha256": "bf0046e268d27cb4f67d2c7f90dc00947d3f0f0fa4f19071fc884a70e849128c",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_053.json",
+      "input_sha256": "11230cfd781ded707c33dfe588b08308d45473beac19105549bbe3482e4035ff",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_054.json",
+      "input_sha256": "e273faca8d83340ef043f4b8e8c8fa495915fa279486036efb2b7a04d063e232",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_055.json",
+      "input_sha256": "d66d43c3cd6741f079e6967090d8096dd5aee25df7c3d1e795608f26559122cc",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_056.json",
+      "input_sha256": "e5f2c8afee7672d412f398888a6947bb38483aae92522772d68362b9e1de44dd",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_057.json",
+      "input_sha256": "382e88801af954c6b458f342301fdca42217774115c695929d35bbdb27cd5b79",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_058.json",
+      "input_sha256": "9fc5d7475df91ba16e641cd373a26efa41a749ff9bce0e22828962beff8e45da",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_059.json",
+      "input_sha256": "462a98a5141e40fe3dce5a1d3703270a8c7c334d31ad85d24ef2059f4606de08",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_060.json",
+      "input_sha256": "a92315df61e45e6ac2ba81db15777c1a7015584c5b5c7dc94667872c8e76710b",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_061.json",
+      "input_sha256": "fee35d3c9d8bb10a0e3567cfd8a9e1b5a316db6b59cc8b551e46e9059f24734a",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_062.json",
+      "input_sha256": "f02a34c483f816454ee622b03dde8fdd2f40f6750ab4c93ab913209999745fa2",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_063.json",
+      "input_sha256": "ac519a8544517c8358bba966eb984b1fe9f3037632340892d8e9727105f94b9a",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_064.json",
+      "input_sha256": "e2cbecf5c6cb54a23f2837149f8ac5078fb19f9f7696093f1a313465aa50e76a",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_065.json",
+      "input_sha256": "5d949052fcbc42cc40d3fb6463584d135966b3acae086bb11eed053e21962e37",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_066.json",
+      "input_sha256": "9c7b1a180034481bfe19b2c7a7f7dd3de0d119db1e2bf28c288e40a6e3511a6c",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_067.json",
+      "input_sha256": "9c9a8f7abf22c0bcc98f141eb6b96a5ae96a5ca309cb031145dd28ed5172cefd",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_068.json",
+      "input_sha256": "bc2fb508fa6034c457521ac52df623e94b0d3714af8b940c4c157bb63fea23d6",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_069.json",
+      "input_sha256": "63a2adc81613b6142394b00dae3f8d2ed7b31ae579ed7869300433cddd18daba",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_070.json",
+      "input_sha256": "2cb7d8201c3c5384a25be65f0f364d4d89536a1ba966e6c30add4ea4a721c36c",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_071.json",
+      "input_sha256": "04aff2364b69091cd882f94fcef0c9a838cb3a8b045be651ad49c6b959e39f6f",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_072.json",
+      "input_sha256": "152ddef934031e07c5a5dcaef3b280e193f3f304d769b4ab439e00a18441f2d8",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_073.json",
+      "input_sha256": "fb7f656db005b5caa96faae9f0d1c6c7e0bd021fc4c8452b298480cb2629f53a",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_074.json",
+      "input_sha256": "7e874f23bbda0dfd1c4d26112c06d45203f4e82a2b393f5ee9ec59aefa60686a",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_075.json",
+      "input_sha256": "b770f190b4872dcc3bbeb01b1d617770e151a2e0ff796a3eead64f3f14e8d76d",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_076.json",
+      "input_sha256": "79d0b72b1b21040a04903226426c6d23ff4cf5b8e9fd4f7675abd791ffe03e2d",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_076.json"
+    },
+    {
+      "batch": 77,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_077.json",
+      "input_sha256": "1e888a5e066f991d6ac16b2c178b32b826417e2a17f5f62a962edd501695de8f",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_077.json"
+    },
+    {
+      "batch": 78,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_078.json",
+      "input_sha256": "165d55b9e95d42da240246be21089463211558282c71af39e4c39552c9ed86e4",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_078.json"
+    },
+    {
+      "batch": 79,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_079.json",
+      "input_sha256": "8b5de525ff708f4435c86acbf08ed4ecfb289c9d35571ca730ce31118dde61dc",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_079.json"
+    },
+    {
+      "batch": 80,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_080.json",
+      "input_sha256": "a0ab3258927a961c595fb6b8ec4fa1f23a6ae0a8e3877ab9bf023376daa7e9cc",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_080.json"
+    },
+    {
+      "batch": 81,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_081.json",
+      "input_sha256": "bb278ef8691a3031be3bf35ba03ad9890abf0fef0912ade95500d49186b2d6f5",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_081.json"
+    },
+    {
+      "batch": 82,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_082.json",
+      "input_sha256": "628bbe4f7f3f17470dc6f4f99d44571ec4aa4034f9c96dd89ea574c70062f0d2",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_082.json"
+    },
+    {
+      "batch": 83,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_083.json",
+      "input_sha256": "f80c2d116e37eb4fa9275b887d5bf688d5fe24819e76cf21e11caffa9a9ee1d3",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_083.json"
+    },
+    {
+      "batch": 84,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_084.json",
+      "input_sha256": "ed15ea49f12a820c40241cd9cfe112d59606cda1c8df2ba933d9cabc9fb40496",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_084.json"
+    },
+    {
+      "batch": 85,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_085.json",
+      "input_sha256": "ab66ac8d29d5948982d058829cd709f5347bb0c772532462874d9c05ffcee142",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_085.json"
+    },
+    {
+      "batch": 86,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_086.json",
+      "input_sha256": "fb38a3b2c55ed7b51e12302a893df73c27ff3fa5af88e296f1ce2c9a30565cbc",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_086.json"
+    },
+    {
+      "batch": 87,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_087.json",
+      "input_sha256": "7229eefc7cf18497572702a7deef5dbe727cd9fd7e397a46de7cb43a3d530a40",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_087.json"
+    },
+    {
+      "batch": 88,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_088.json",
+      "input_sha256": "d7a3bf3b2008549c2ed885ac9ac2a7dd2ca7e0527b1de982a942b1766e8165bc",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_088.json"
+    },
+    {
+      "batch": 89,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_089.json",
+      "input_sha256": "54369e3ba36d1eb957fd42afbfd8f97530d21c45f348c568f657f424722671f5",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_089.json"
+    },
+    {
+      "batch": 90,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_090.json",
+      "input_sha256": "c1451e763bd6b709286ae44704d334281f54f2a7d2b2f1e20819a4e8440a4bba",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_090.json"
+    },
+    {
+      "batch": 91,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_091.json",
+      "input_sha256": "292ef3202deda8fd0f5fe884f98b421eee969e24e241267dda28da14e4a287e4",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_091.json"
+    },
+    {
+      "batch": 92,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_092.json",
+      "input_sha256": "f92b85502355b0d0e9f0c71225a49556af7ddc4709409b7c9b2dd56c2ca57e9d",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_092.json"
+    },
+    {
+      "batch": 93,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_093.json",
+      "input_sha256": "1d94038e7b3ec746a76bc1fb4dc7c4d4b120e1f99b5c5d1845ef9029db6a5cd4",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_093.json"
+    },
+    {
+      "batch": 94,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_094.json",
+      "input_sha256": "740ae13301ed7df56c3d03eec8f293dfc10cbcb4629c75b3f9f924df83b4b272",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_094.json"
+    },
+    {
+      "batch": 95,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_095.json",
+      "input_sha256": "c63049d90f19b4e9bb1946e2d33d166176eb060cda34224ef099942454c5777c",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_095.json"
+    },
+    {
+      "batch": 96,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_096.json",
+      "input_sha256": "af57eb2ba6b2ed85ea25cbccb07fe7174235cb46d8f16cf7e41864e083256b5d",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_096.json"
+    },
+    {
+      "batch": 97,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_097.json",
+      "input_sha256": "605fd3f959181dba650cf22113aa4f06ba2d516a3b9e621367c11c2146de4de8",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_097.json"
+    },
+    {
+      "batch": 98,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_098.json",
+      "input_sha256": "dc600ee282b051c67c6fc60bfcdeab64c9840a56279a1c927d4e7b39fc91fc21",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_098.json"
+    },
+    {
+      "batch": 99,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_099.json",
+      "input_sha256": "e81f1efe2bc75686b78dc4ecbca262571e780ca6b7b41940f87c313ef9bc0ac9",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_099.json"
+    },
+    {
+      "batch": 100,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_100.json",
+      "input_sha256": "9e0c113970b0b001a227c0d2011995116d15fe71ec6af8e9fd314a187a58a2c8",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_100.json"
+    },
+    {
+      "batch": 101,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_101.json",
+      "input_sha256": "3f3394767d3e9c1194735d53b429ae856c36ac5f54395259c17a6463b5042a8b",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_101.json"
+    },
+    {
+      "batch": 102,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_102.json",
+      "input_sha256": "33d41237f8f3f9b586113f26d79a0c08ad3e9fdbf05b2b445056b1a3ddc1eb98",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_102.json"
+    },
+    {
+      "batch": 103,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_103.json",
+      "input_sha256": "a103470a4180a414e2d09ee74d2d12f91676506331f4900691daeb443817158e",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_103.json"
+    },
+    {
+      "batch": 104,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_104.json",
+      "input_sha256": "387f62e81d5ed5d3e3523ff27fbe3d688b5b8e8749df8c007de66a60bc9c0a7b",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_104.json"
+    },
+    {
+      "batch": 105,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_105.json",
+      "input_sha256": "61f3375005959f60d583d24b37c0b638a2831e4144d11d0368365e6d1f896b77",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_105.json"
+    },
+    {
+      "batch": 106,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_106.json",
+      "input_sha256": "51831e966384a1d978c9298d459b2d069caa1e43126a3035021f133596456039",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_106.json"
+    },
+    {
+      "batch": 107,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_107.json",
+      "input_sha256": "ba2d277970f3bf939e5c8fb1f29b687a123ebebb751e636df61f1d803edd32df",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_107.json"
+    },
+    {
+      "batch": 108,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_108.json",
+      "input_sha256": "f08c7de7e7c4960f8cbff84a06f380e078e19a373b27f830a7c4f65969723b2e",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_108.json"
+    },
+    {
+      "batch": 109,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_109.json",
+      "input_sha256": "849cdeae6fd5a045550ec77b04cd24efb0da4bcf555dca378930e1d82e494608",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_109.json"
+    },
+    {
+      "batch": 110,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_110.json",
+      "input_sha256": "998ccfcd26702fbe1111732e12222c8b7e12760500438e5689841bb7e8f2bbcb",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_110.json"
+    },
+    {
+      "batch": 111,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_111.json",
+      "input_sha256": "4338aea2c77bf05a0e7514fd88de6c0b7b7731681e05d816dc34922ab1bfd28c",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_111.json"
+    },
+    {
+      "batch": 112,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_112.json",
+      "input_sha256": "cc98aeddb4a4f64a651c9abdfe0510b1fd4154c19a57e14bb19a9349360a9f49",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_112.json"
+    },
+    {
+      "batch": 113,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_113.json",
+      "input_sha256": "1f5667ec3c6bbcc5558639c6ec7d4d15eb552bdc74eb9e30693fafc21254df67",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_113.json"
+    },
+    {
+      "batch": 114,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_114.json",
+      "input_sha256": "8e6afa83c0aced3c6286de4d688048eb0d79efee86ff0d5aa3c62c346ab12a60",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_114.json"
+    },
+    {
+      "batch": 115,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_115.json",
+      "input_sha256": "b33f3a0d49da1b6e2ce4b162101e53c2a715f5889b70ccce261ce1a34b369a03",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_115.json"
+    },
+    {
+      "batch": 116,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_116.json",
+      "input_sha256": "f5dd5c18515007211ced7f8f875b915d5607c28140aa332a8a2b65f66f576d98",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_116.json"
+    },
+    {
+      "batch": 117,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_117.json",
+      "input_sha256": "2a007a4b3e315e62146d850407772972be9e2c85e3e40f4da0cfaa7fe4bfd2ab",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_117.json"
+    },
+    {
+      "batch": 118,
+      "n": 40,
+      "input": "temp/screen/agricultural-mode-of-production/batch_118.json",
+      "input_sha256": "9a69cd55f42f3987fc907f2974e683b72d3e25f658d32efd9c915ba4fb0b448f",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_118.json"
+    },
+    {
+      "batch": 119,
+      "n": 36,
+      "input": "temp/screen/agricultural-mode-of-production/batch_119.json",
+      "input_sha256": "f81e27e5dac911d6a9413d096194d34ec436994da5cd94aaac370f3a335a5911",
+      "output": "temp/screen/agricultural-mode-of-production/verdict_119.json"
+    }
+  ]
+}
