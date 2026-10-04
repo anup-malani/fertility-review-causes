@@ -25,6 +25,7 @@ import subprocess
 import sys
 import tempfile
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -170,6 +171,8 @@ def main():
     parser.add_argument("--timeout", type=int, default=240,
                         help="seconds per batch before killing the model process group (default 240)")
     parser.add_argument("--retries", type=int, default=4, help="model attempts per batch (default 4)")
+    parser.add_argument("--workers", type=int, default=1,
+                        help="concurrent batches / model subprocesses (default 1; batches are independent)")
     parser.add_argument("--command", nargs=argparse.REMAINDER,
                         help="authorized model argv, e.g. --command claude -p")
     args = parser.parse_args()
@@ -209,67 +212,80 @@ def main():
         "results": [],
     }
     log = load_log()
+
+    def process_batch(item, inputs, output):
+        """Screen one batch, with retries. Self-contained (own subprocess + own verdict file), so it is
+        safe to run many of these concurrently in a thread pool. Returns a result dict."""
+        number = item["batch"]
+        prompt = (rubric + "\n\n## Batch to screen\n\n" +
+                  json.dumps(inputs, indent=2, ensure_ascii=False) +
+                  "\n\nOutput ONLY the JSON array — no preamble, no prose, no explanation, no code "
+                  "fence. One object per paper, in the same order. Your first character must be "
+                  "'[' and your last must be ']'.\n")
+        # The nested `claude -p` is intermittently flaky: a prose preamble (handled by the tolerant
+        # parser), an occasional dropped item (count/schema mismatch), or a hang (killpg timeout).
+        # Retry up to args.retries times; a persistently-failing batch is recorded and left for a later
+        # re-run (the assembler 92 is fail-closed, so a missing batch never enters the gold).
+        attempts = []
+        for attempt in range(1, args.retries + 1):
+            started = time.monotonic()
+            # Neutral cwd: keep the nested model out of the project dir (settings/hook noise).
+            returncode, stdout, stderr, timed_out = run_model(
+                command, prompt, args.timeout, tempfile.gettempdir())
+            seconds = round(time.monotonic() - started, 2)
+            if timed_out:
+                attempts.append({"attempt": attempt, "status": "timeout", "seconds": seconds})
+                print(f"batch {number:03d} try {attempt}: TIMEOUT (killed group)", file=sys.stderr)
+                continue
+            if returncode != 0:
+                attempts.append({"attempt": attempt, "status": "model_error",
+                                 "returncode": returncode, "seconds": seconds,
+                                 "stderr_tail": stderr[-500:]})
+                print(f"batch {number:03d} try {attempt}: model exit {returncode}", file=sys.stderr)
+                continue
+            try:
+                payload = extract_json_array(stdout)
+            except (json.JSONDecodeError, ValueError) as exc:
+                attempts.append({"attempt": attempt, "status": "invalid_json",
+                                 "seconds": seconds, "error": str(exc)})
+                print(f"batch {number:03d} try {attempt}: invalid JSON", file=sys.stderr)
+                continue
+            errors = validate_payload(payload, inputs, validator, f"batch {number:03d}")
+            if errors:
+                attempts.append({"attempt": attempt, "status": "schema_error",
+                                 "seconds": seconds, "errors": errors[:8]})
+                print(f"batch {number:03d} try {attempt}: {len(errors)} validation errors", file=sys.stderr)
+                continue
+            atomic_write_json(output, payload)
+            print(f"batch {number:03d}: valid ({seconds:.1f}s, try {attempt})")
+            return {"batch": number, "status": "written_valid", "seconds": seconds, "attempts": attempt}
+        print(f"batch {number:03d}: FAILED after {args.retries} tries — continuing", file=sys.stderr)
+        return {"batch": number, "status": "failed_after_retries", "attempts": attempts}
+
+    pending = [(item, inputs, output) for item, inputs, output, valid in statuses
+               if not valid or args.force]
+    for item, _, _, valid in statuses:
+        if valid and not args.force:
+            run["results"].append({"batch": item["batch"], "status": "skipped_valid"})
+    print(f"running {len(pending)} batches with {args.workers} worker(s)")
     failed = False
     try:
-        for item, inputs, output, valid in statuses:
-            number = item["batch"]
-            if valid and not args.force:
-                run["results"].append({"batch": number, "status": "skipped_valid"})
-                continue
-            prompt = (rubric + "\n\n## Batch to screen\n\n" +
-                      json.dumps(inputs, indent=2, ensure_ascii=False) +
-                      "\n\nOutput ONLY the JSON array — no preamble, no prose, no explanation, no code "
-                      "fence. One object per paper, in the same order. Your first character must be "
-                      "'[' and your last must be ']'.\n")
-            # The nested `claude -p` is intermittently flaky: it occasionally contaminates stdout with
-            # project-settings warnings (invalid JSON) or drops a few items (count/schema mismatch).
-            # Retry each batch up to args.retries times; on persistent failure, record it and CONTINUE
-            # to the next batch rather than halting the whole 119-batch run (the assembler 92 stays
-            # fail-closed, so a still-missing batch simply gets re-run later and never enters the gold).
-            attempts = []
-            ok = False
-            for attempt in range(1, args.retries + 1):
-                started = time.monotonic()
-                # Neutral cwd: keep the nested model out of the project dir (settings/hook noise).
-                returncode, stdout, stderr, timed_out = run_model(
-                    command, prompt, args.timeout, tempfile.gettempdir())
-                seconds = round(time.monotonic() - started, 2)
-                if timed_out:
-                    attempts.append({"attempt": attempt, "status": "timeout", "seconds": seconds})
-                    print(f"batch {number:03d} try {attempt}: TIMEOUT (killed group)", file=sys.stderr)
-                    continue
-                if returncode != 0:
-                    attempts.append({"attempt": attempt, "status": "model_error",
-                                     "returncode": returncode, "seconds": seconds,
-                                     "stderr_tail": stderr[-500:]})
-                    print(f"batch {number:03d} try {attempt}: model exit {returncode}", file=sys.stderr)
-                    continue
-                try:
-                    payload = extract_json_array(stdout)
-                except (json.JSONDecodeError, ValueError) as exc:
-                    attempts.append({"attempt": attempt, "status": "invalid_json",
-                                     "seconds": seconds, "error": str(exc)})
-                    print(f"batch {number:03d} try {attempt}: invalid JSON", file=sys.stderr)
-                    continue
-                errors = validate_payload(payload, inputs, validator, f"batch {number:03d}")
-                if errors:
-                    attempts.append({"attempt": attempt, "status": "schema_error",
-                                     "seconds": seconds, "errors": errors[:8]})
-                    print(f"batch {number:03d} try {attempt}: {len(errors)} validation errors", file=sys.stderr)
-                    continue
-                atomic_write_json(output, payload)
-                run["results"].append({"batch": number, "status": "written_valid",
-                                       "seconds": seconds, "attempts": attempt})
-                print(f"batch {number:03d}: valid ({seconds:.1f}s, try {attempt})")
-                ok = True
-                break
-            if not ok:
-                run["results"].append({"batch": number, "status": "failed_after_retries",
-                                       "attempts": attempts})
-                print(f"batch {number:03d}: FAILED after {args.retries} tries — continuing", file=sys.stderr)
-                failed = True
+        if args.workers <= 1:
+            for item, inputs, output in pending:
+                res = process_batch(item, inputs, output)
+                run["results"].append(res)
+                failed = failed or res["status"] != "written_valid"
+        else:
+            with ThreadPoolExecutor(max_workers=args.workers) as pool:
+                futures = {pool.submit(process_batch, item, inputs, output): item["batch"]
+                           for item, inputs, output in pending}
+                for fut in as_completed(futures):
+                    res = fut.result()
+                    run["results"].append(res)
+                    failed = failed or res["status"] != "written_valid"
     finally:
         run["finished_utc"] = datetime.now(timezone.utc).isoformat()
+        run["results"].sort(key=lambda r: r["batch"])
         log["runs"].append(run)
         save_log(log)
     return 1 if failed else 0
