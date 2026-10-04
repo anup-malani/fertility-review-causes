@@ -69,6 +69,27 @@ def strip_code_fence(text):
     return match.group(1).strip() if match else text
 
 
+def extract_json_array(text):
+    """Tolerantly recover the verdict array. `claude -p` frequently prepends a prose preamble
+    ("Based on the rubric, here is my screening...") before the array, so requiring the whole stdout
+    to be clean JSON fails most batches. Try, in order: a clean fence/body; a fenced ```json array
+    anywhere; the span from the first '[' to the last ']'. Raises ValueError if none parse."""
+    try:
+        return json.loads(strip_code_fence(text))
+    except json.JSONDecodeError:
+        pass
+    m = re.search(r"```(?:json)?\s*(\[.*\])\s*```", text, flags=re.DOTALL | re.IGNORECASE)
+    if m:
+        try:
+            return json.loads(m.group(1))
+        except json.JSONDecodeError:
+            pass
+    i, j = text.find("["), text.rfind("]")
+    if i != -1 and j > i:
+        return json.loads(text[i:j + 1])  # may raise JSONDecodeError on a truncated array
+    raise ValueError("no JSON array found in model output")
+
+
 def run_model(command, prompt, timeout, cwd):
     """Run the model with a HARD timeout. subprocess.run(timeout=) only SIGKILLs the direct child, so
     if `claude` spawns a grandchild that inherits the stdout pipe, communicate() deadlocks waiting for
@@ -197,7 +218,9 @@ def main():
                 continue
             prompt = (rubric + "\n\n## Batch to screen\n\n" +
                       json.dumps(inputs, indent=2, ensure_ascii=False) +
-                      "\n\nReturn only the required JSON array in the same order.\n")
+                      "\n\nOutput ONLY the JSON array — no preamble, no prose, no explanation, no code "
+                      "fence. One object per paper, in the same order. Your first character must be "
+                      "'[' and your last must be ']'.\n")
             # The nested `claude -p` is intermittently flaky: it occasionally contaminates stdout with
             # project-settings warnings (invalid JSON) or drops a few items (count/schema mismatch).
             # Retry each batch up to args.retries times; on persistent failure, record it and CONTINUE
@@ -222,8 +245,8 @@ def main():
                     print(f"batch {number:03d} try {attempt}: model exit {returncode}", file=sys.stderr)
                     continue
                 try:
-                    payload = json.loads(strip_code_fence(stdout))
-                except json.JSONDecodeError as exc:
+                    payload = extract_json_array(stdout)
+                except (json.JSONDecodeError, ValueError) as exc:
                     attempts.append({"attempt": attempt, "status": "invalid_json",
                                      "seconds": seconds, "error": str(exc)})
                     print(f"batch {number:03d} try {attempt}: invalid JSON", file=sys.stderr)
