@@ -1,5 +1,5 @@
 # TICK-098: C.1.a Income Effect on Fertility
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `income-effect-normal-good` — HYPOTHESES-v5.md §C.1.a
 **Parallel-safe:** yes
