@@ -8,19 +8,19 @@
 **Touches:** literature/search-logs/income-effect-normal-good-*, extraction/income-effect-normal-good-*, output/chapters/income-effect-normal-good.md, source/build/goldset/
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
-- [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/income-effect-normal-good.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
-- [ ] 13. RA lay-readability check
-- [ ] 14. PI review and sign-off
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/income-effect-normal-good-search-scope.md` (2026-10-09)
+- [x] 3. Literature search and AI screening — frame probe (claim-noun ~1,680; recall 2,191; housing control 162) + completeness test; 15 anchors resolved → pool 1,119 (anchors + citation frame + 155 identified core) → blinded Haiku screen, 20 batches (170 in-scope, 50→C.2.e wall, 42 POOLING)
+- [ ] 4. RA title/abstract review — HUMAN GATE (390 abstract-less UNCERTAIN)
+- [~] 5. Full-text retrieval — 6/170 read (OA subset); paywalled canon on `income-effect-normal-good-missing-pdf-dois.csv` (RA proxy). Per precedent, chapter written on the OA subset
+- [x] 6. Full-text screen — 6 read in full; RA 5–10% spot-check owed
+- [x] 7. Extraction — `extraction/income-effect-normal-good.csv` (6 records, 3 usable estimates); RA 10% verify owed
+- [x] 8. Risk-of-bias — `extraction/income-effect-normal-good-risk-of-bias.csv`
+- [x] 9. Narrative synthesis (no homogeneous poolable set — different shocks/outcomes/margins; one estimate even clean-but-no-outcome)
+- [x] 10. Demographic significance — PM NOT ASSESSED (Clark paywalled; sign would be +/DOMINANT); FDT NEGLIGIBLE (wrong sign); SDT NEGLIGIBLE (wrong sign)
+- [x] 11. GRADE first pass — PM No evidence, FDT VERY LOW, SDT VERY LOW; 3-rater panel = HUMAN GATE
+- [x] 12. Chapter first draft — `output/chapters/income-effect-normal-good.md`
+- [ ] 13. RA lay-readability check — HUMAN GATE
+- [ ] 14. PI review and sign-off — HUMAN GATE
 
 ## Log
 
@@ -101,3 +101,32 @@ artifact, and confirm the selecting frame includes every registered construct (i
 income, income elasticity, permanent income, wealth effect, normal good) while the development/wage/
 relative-income OR-inflaters stay out of base recall. Selection-probe artifacts to port onto the branch:
 `c2e_select_probe.py` + `c2e-select-cache.json` (session scratchpad).
+
+**INTERIM CHAPTER DRAFTED 2026-10-09.** Full pipeline run end-to-end: scope → frame probe + completeness
+test → 15 anchors (live OpenAlex) → pool 1,119 → blinded Haiku screen (20 batches; 170 in-scope, 98 OA;
+50→C.2.e wall; 42 POOLING; 390 abstract-less→RA gate) → OA retrieval (6 full texts) → parallel extraction
+agents → extraction + RoB + chapter. Per the standing PI instruction, written on the OA subset.
+
+**HEADLINE:** Where a positive income/wealth shock is credibly identified, fertility RISES — children are
+a (weakly) normal good — overturning the naive negative cross-sectional gradient (which confounds income
+with the price of time, C.2.e). Black 2013 (coal boom) income elasticity of fertility ≈ **+0.7**;
+Kearney–Wilson 2018 (fracking) **+5.96** births/1,000 per \$1k/capita, no marriage shift; Dettling–Kearney
+2014 (house prices) owners **+5–7%** per \$10k, renters −2.4%. BUT (a) every fertility-measuring study
+bundles wages (MIXED) or a credit channel; (b) the one near-ideal CLEAN design — Golosov et al. 2021
+lottery/unearned income (90,731 winners) — **reports no fertility outcome at all** (marriage +5.5%, divorce
+−5.9% per \$100k); (c) Comolli 2017 routes to C.5.a. Net: the pure income effect is positive but barely
+cleanly identified. Because it is POSITIVE and the transitions are DECLINES, C.1.a is the **counterfactual,
+not a cause**: at +0.7 elasticity, 150 years of income growth predicts fertility should have doubled; it
+halved. **VERDICT: PM NOT ASSESSED (Clark paywalled; sign +/DOMINANT) · FDT NEGLIGIBLE (wrong sign) · SDT
+NEGLIGIBLE (wrong sign); GRADE PM No evidence / FDT VERY LOW / SDT VERY LOW.**
+
+**Three NBER-number mis-procurements caught by extraction agents (none fabricated):** Cesarini QJE/lottery
+(got "Lights, Camera, Income!"), Black (got an obesity paper at w13479, then "Chasing Noise" at w16042 —
+correct paper finally retrieved from St. Louis Fed WP 2008-040). Lesson: do not guess NBER working-paper
+numbers — resolve the OA PDF via OpenAlex `best_oa_location`.
+
+**NOW AT HUMAN GATES:** (4) RA title/abstract review of 390 abstract-less UNCERTAIN; (5) RA proxy/ILL of the
+paywalled canon (Clark "Survival of the Richest" — would move PM off NOT ASSESSED; Lovenheim–Mumford; Lindo;
+Cesarini lottery) — see `income-effect-normal-good-missing-pdf-dois.csv`; (6) RA screen spot-check; (7) RA
+10% extraction verify; (11) 3-rater GRADE panel; (13) RA lay-readability; (14) PI review + the §11 calls.
+Provisional on retrieval of the paywalled clean-design canon.

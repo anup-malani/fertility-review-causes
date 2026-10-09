@@ -84,6 +84,17 @@ with open(os.path.join(ROOT, "extraction", "income-effect-normal-good.csv"), "w"
                     r.get("elasticity"), r.get("identifies_pure_income_effect"), r.get("routes_to"),
                     r.get("sample_n"), (r.get("rob") or {}).get("overall")])
 
+# risk-of-bias CSV from extraction rob sub-objects
+with open(os.path.join(ROOT, "extraction", "income-effect-normal-good-risk-of-bias.csv"), "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["study", "doi", "design", "shock_type", "confounding", "selection",
+                "measurement", "reporting", "overall", "identifies_pure_income_effect"])
+    for r in rows:
+        rob = r.get("rob") or {}
+        w.writerow([r.get("study"), r.get("doi"), r.get("design"), r.get("shock_type"),
+                    rob.get("confounding"), rob.get("selection"), rob.get("measurement"),
+                    rob.get("reporting"), rob.get("overall"), r.get("identifies_pure_income_effect")])
+
 print(f"screen tally: {dict(tally)}")
 print(f"relevant {len(rel)} ({len(rel_oa)} OA); extracted full texts: {len(rows)}")
 print("wrote screen-results.{json,md}, extraction/income-effect-normal-good.csv, -missing-pdf-dois.csv")
