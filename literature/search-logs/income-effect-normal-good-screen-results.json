@@ -1,0 +1,18 @@
+{
+ "tally": {
+  "UNCERTAIN": 390,
+  "RELEVANT": 119,
+  "OFF": 395,
+  "ROUTE_C2E": 50,
+  "POOLING": 42,
+  "THEORY": 49,
+  "ROUTE_UNCERTAINTY": 19,
+  "ROUTE_DEV": 24,
+  "RELEVANT_HISTORICAL": 9,
+  "REVERSE": 20,
+  "ROUTE_C6A": 2
+ },
+ "n_total": 1119,
+ "n_relevant": 170,
+ "n_relevant_oa": 98
+}

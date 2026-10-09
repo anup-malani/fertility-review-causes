@@ -1,0 +1,118 @@
+# C.1.a blinded screen results
+
+Pool 1119 records. Verdict tally:
+
+- OFF: 395
+- UNCERTAIN: 390
+- RELEVANT: 119
+- ROUTE_C2E: 50
+- THEORY: 49
+- POOLING: 42
+- ROUTE_DEV: 24
+- REVERSE: 20
+- ROUTE_UNCERTAINTY: 19
+- RELEVANT_HISTORICAL: 9
+- ROUTE_C6A: 2
+
+RELEVANT/POOLING/HISTORICAL: 170 (98 OA).
+
+## In-scope, OA (retrievable now)
+
+- [RELEVANT] 2009 — How does Parental Leave Affect Fertility and Return to Work? Evidence from Two Natural Exp (cited 560) doi:10.1162/qjec.2009.124.3.1363
+- [RELEVANT] 2021 — Can Policies Stall the Fertility Fall? A Systematic Review of the (Quasi‐) Experimental Li (cited 258) doi:10.1111/padr.12431
+- [RELEVANT] 2005 — FERTILITY AND SOCIAL SECURITY (cited 236) doi:10.1017/dem.2014.14
+- [RELEVANT] 2011 — The contribution of increases in family benefits to Australia’s early 21st-century fertili (cited 166) doi:10.4054/demres.2011.25.6
+- [RELEVANT] 2012 — Are Children “Normal”? (cited 163) doi:10.1162/rest_a_00257
+- [POOLING] 2021 — Cash Transfers and Fertility (cited 141) doi:10.3368/jhr.59.1.0220-10725r2
+- [POOLING] 2021 — Baby bonus in Switzerland: Effects on fertility, newborn health, and birth‐scheduling (cited 110) doi:10.1002/hec.4366
+- [RELEVANT] 2020 — Who responds to fertility-boosting incentives? Evidence from pro-natal policies in Austral (cited 105) doi:10.4054/demres.2020.42.18
+- [RELEVANT] 1982 — Income and Fertility: The Elusive Relationship (cited 102) doi:10.2307/2061129
+- [RELEVANT] 2019 — The influence of housing on family size in South Korea: Unstable housing and parity specif (cited 101) doi:10.31235/osf.io/89gcu
+- [RELEVANT] 2002 — Is There an Effect of Incremental Welfare Benefits on Fertility Behavior? A Look at the Fa (cited 88) doi:10.3386/w9093
+- [POOLING] 2006 — An Economic History of Fertility in the U.S.: 1826-1960 (cited 87) doi:10.3386/w12796
+- [RELEVANT] 2018 — Financial Incentives and the Fertility-Sex Ratio Trade-Off (cited 75) doi:10.1257/app.20150234
+- [RELEVANT] 1989 — The Income–Fertility Relationship: Effect of the Net Price of a Child (cited 70) doi:10.2307/2061527
+- [RELEVANT] 2016 — Effectiveness of a girls’ empowerment programme on early childbearing, marriage and school (cited 70) doi:10.1186/s13063-016-1682-9
+- [POOLING] 2011 — House Prices and Birth Rates: The Impact of the Real Estate Market on the Decision to Have (cited 67) doi:10.3386/w17485
+- [POOLING] 2019 — Demographic externalities from poverty programs in developing countries: experimental evid (cited 65) doi:10.17606/2rx1-gv47
+- [RELEVANT] 2021 — How Americans Respond to Idiosyncratic and Exogenous Changes in Household Wealth and Unear (cited 61) doi:10.3386/w29000
+- [RELEVANT] 2011 — Does Cash for School Influence Young Women's Behavior in the Longer Term? Evidence from Pa (cited 61) doi:10.1596/1813-9450-5669
+- [RELEVANT] 1997 — The effect of incremental benefit levels on births to AFDC recipients (cited 60) doi:10.1002/(sici)1520-6688(199723)16:4<575::aid-pam4>3.0.co;2-d
+- [POOLING] 2007 — Do Financial Incentives Affect Fertility? (cited 50) doi:10.3386/w13700
+- [POOLING] 2008 — Does Fertility Respond to Financial Incentives? (cited 46) doi:10.7916/d8g166pf
+- [RELEVANT] 2022 — The relationship between life-course accumulated income and childbearing of Swedish men an (cited 42) doi:10.1080/00324728.2022.2134578
+- [RELEVANT] 2015 — The Effect of House Prices on Fertility: Evidence from Canada (cited 35) doi:10.5018/economics-ejournal.ja.2019-38
+- [POOLING] 2022 — Examining the Effects of a Universal Cash Transfer on Fertility (cited 34) doi:10.1093/sf/soac013
+- [RELEVANT] 2014 — Analysis of economic determinants of fertility in Iran: a multilevel approach (cited 31) doi:10.15171/ijhpm.2014.78
+- [RELEVANT] 2016 — Delayed and depressed: from expensive housing to smaller families (cited 31) doi:10.1080/14616718.2016.1241936
+- [RELEVANT] 2004 — Le quotient familial a-t-il stimulé la natalité française ? (cited 30) doi:10.4000/economiepublique.279
+- [POOLING] 2017 — Can Financial Incentives Reduce the Baby Gap? Evidence from a Reform in Maternity Leave Be (cited 30) doi:10.3386/w23793
+- [POOLING] 2002 — Welfare Reform and Non-Marital Fertility in the 1990s: Evidence from Birth Records (cited 26) doi:10.3386/w9406
+- [RELEVANT] 2011 — Does Cash for School Influence Young Women's Behavior in the Longer Term? Evidence from Pa (cited 26) doi:10.1037/e602762012-001
+- [POOLING] 2021 — Lessons learned? Intended and unintended effects of India's second‐generation maternal cas (cited 25) doi:10.1002/hec.4390
+- [RELEVANT] 2025 — Can Family Policies Enhance Fertility? An Ex Ante Evaluation Through Factorial Survey Expe (cited 25) doi:10.1215/00703370-11775048
+- [RELEVANT] 2022 — Cash transfers before pregnancy and infant health (cited 24) doi:10.1016/j.jhealeco.2022.102622
+- [RELEVANT] 2012 — A Re‐Appraisal of the Fertility Response to the Australian Baby Bonus (cited 24) doi:10.1111/j.1475-4932.2012.00805.x
+- [RELEVANT] 2018 — Certain Aspects of Family Policy Incentives for Childbearing—A Hungarian Study with an Int (cited 23) doi:10.3390/su10113976
+- [POOLING] 2023 — Women’s right to property and the child quantity-quality trade-off: evidence from India (cited 22) doi:10.1007/s00148-023-00970-0
+- [POOLING] 2023 — Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility (cited 21) doi:10.1093/restud/rdad034
+- [RELEVANT] 2017 — Waking Up from the American Dream: On the Experience of Young Americans during the Housing (cited 20) doi:10.1111/jmcb.12408
+- [RELEVANT] 2014 — Lifetime impact of cash transfer on fertility (cited 20) doi:10.25336/p64s52
+- [POOLING] 2006 — An Economic Examination of the Post-Transition Fertility Decline in Russia (cited 17) doi:10.1080/14631370601008415
+- [RELEVANT_HISTORICAL] 1968 — Income and differentials in current fertility (cited 17) doi:10.1007/bf03208572
+- [POOLING] 2020 — Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility (cited 16) doi:10.17016/feds.2020.002
+- [RELEVANT] 2014 — Can government policies reverse undesirable declines in fertility? (cited 16) doi:10.15185/izawol.23
+- [RELEVANT] 2024 — House prices and fertility: Can the Dutch housing crisis explain the post‐2010 fertility d (cited 16) doi:10.1002/psp.2787
+- [POOLING] 2024 — Cash transfers and fertility: Evidence from Poland’s Family 500+ Policy (cited 15) doi:10.4054/demres.2024.51.28
+- [RELEVANT] 2014 — Fostering Household Formation: Evidence from a Spanish Rental Subsidy (cited 14) doi:10.1515/bejeap-2014-0003
+- [RELEVANT] 2019 — The long-term consequences of youth housing for childbearing and higher education (cited 12) doi:10.1016/j.jpolmod.2019.05.008
+- [RELEVANT] 2020 — Economic Incentives Surrounding Fertility: Evidence from Alaska's Permanent Fund Dividend (cited 11) doi:10.3386/w26712
+- [POOLING] 2023 — The Fertility Response to Cutting Child-Related Welfare Benefits (cited 11) doi:10.1007/s11113-023-09757-3
+- [RELEVANT] 2023 — Региональные программы материнского капитала: влияние на рождаемость в России (cited 11) doi:10.17059/ekon.reg.2023-4-10
+- [RELEVANT] 2016 — Prise en compte de la famille dans l’imposition des revenus en France (cited 10) doi:10.3917/rfe.161.0111
+- [RELEVANT] 2022 — The Effect of Financial Resources on Homeownership, Marriage, and Fertility: Evidence from (cited 9) doi:10.3386/w30743
+- [RELEVANT] 2025 — What family policies do Iranian couples prefer for childbearing? Evidence from a discrete  (cited 9) doi:10.1186/s12889-025-21938-7
+- [RELEVANT] 2023 — Fertility and Labor Supply Responses to Child Allowances: The Introduction of Means-Tested (cited 9) doi:10.1215/00703370-10965926
+- [RELEVANT] 2023 — Universal Transfers, Tax Breaks and Fertility: Evidence from a Regional Reform in Norway (cited 8) doi:10.1007/s11113-023-09793-z
+- [RELEVANT] 2022 — Interest Rates, House Prices, Fertility, and the Macroeconomy (cited 7) doi:10.3390/jrfm15090403
+- [RELEVANT] 2023 — Fortunate Families? The Effects of Wealth on Marriage and Fertility (cited 7) doi:10.3386/w31039
+- [RELEVANT] 2019 — The effect of house prices on fertility: evidence from Canada (cited 7) doi:10.5018/economics-ejournal.ja.2019-38
+- [RELEVANT] 2021 — 2021 KLEIN LECTURE: AMERICAN DREAM DELAYED: SHIFTING DETERMINANTS OF HOMEOWNERSHIP (cited 7) doi:10.1111/iere.12557
+- [RELEVANT] 2020 — Cash Transfers and Contraceptive Use: A Regression Discontinuity Analysis (cited 7) doi:10.1111/sifp.12142
+- [RELEVANT] 2024 — The Effect of Paid Maternity Leave on Fertility and Mothers’ Labor Force Participation (cited 6) doi:10.1007/s12122-024-09361-0
+- [RELEVANT] 2023 — Conditional cash transfers and women's reproductive choices (cited 6) doi:10.1002/hec.4768
+- [RELEVANT_HISTORICAL] 2017 — Does socioeconomic status matter? The fertility transition in a northern Italian village ( (cited 6) doi:10.4054/demres.2017.37.15
+- [POOLING] 2016 — Оценка влияния политики материнского капитала в России (cited 6) doi:10.17323/demreview.v2i3.1774
+- [RELEVANT] 2025 — Rising House Prices, Falling Fertility? How Rising House Prices Widen Fertility Difference (cited 5) doi:10.1007/s10680-025-09754-6
+- [RELEVANT] 2018 — Interrelation between births and the housing market: A cointegration analysis for the Span (cited 5) doi:10.1002/psp.2172
+- [RELEVANT] 2024 — Intergenerational effects of a casino-funded family transfer program on educational outcom (cited 5) doi:10.1038/s41467-024-52428-w
+- [RELEVANT] 2023 — Effectiveness of conditional cash transfers, subsidized child care and life skills trainin (cited 5) doi:10.1186/s12978-023-01706-9
+- [RELEVANT_HISTORICAL] 2015 — Urban fertility responses to local government programs: Evidence from the 1923-1932 U.S. (cited 4) doi:10.4054/demres.2015.32.16
+- [RELEVANT] 2015 — Effects of income and the cost of children on fertility. Quasi-experimental evidence from  (cited 4) doi:
+- [POOLING] 2020 — Home Prices, Fertility, and Early-Life Health Outcomes (cited 4) doi:10.3386/w27469
+- [RELEVANT] 2017 — Sailing close to the wind? The effects of third birth policies in post-communist Hungary. (cited 4) doi:10.21543/wp.2017.27
+- [RELEVANT] 2021 — More Money — More Births? Estimating Effects of 2007 Family Policy Changes on Probability  (cited 4) doi:10.14515/monitoring.2021.2.1830
+- [POOLING] 2025 — Does urban housing affordability affect fertility in China (cited 4) doi:10.1007/s12546-025-09402-0
+- [POOLING] 2022 — W poszukiwaniu demograficznych efektów rządowego programu „Rodzina 500 Plus” (cited 3) doi:10.24425/sts.2022.140601
+- [RELEVANT] 2021 — Ocena skuteczności programu „Rodzina 500+” w zakresie ograniczenia ubóstwa i zwiększenia d (cited 3) doi:10.15678/znuek.2020.0989.0505
+- [RELEVANT] 2022 — Housing Wealth, Fertility, and Child Quality (cited 2) doi:10.53383/100334
+- [RELEVANT] 2025 — Evaluation of economic strengthening in South Africa and its impact on HIV, sexually trans (cited 2) doi:10.1371/journal.pmed.1004826
+- [RELEVANT] 2024 — Family cash transfers in childhood and birthing persons and birth outcomes later in life (cited 1) doi:10.1016/j.ssmph.2024.101623
+- [RELEVANT] 2003 — Do Family Caps Reduce Out-of-Wedlock Births? Evidence from Arkansas, Georgia, Indiana, New (cited 1) doi:10.22004/ag.econ.28431
+- [RELEVANT] 1998 — Household Wealth, Female Labor Force Participation and Fertility Decisions (cited 1) doi:
+- [RELEVANT] 2017 — Exposição prenatal a choques macroeconômicos: boom do ouro e peso ao nascer na Colômbia (cited 0) doi:
+- [POOLING] 2018 — Three Essays on Development and Health Economics (cited 0) doi:10.7916/d84x6qxn
+- [POOLING] 2014 — Essays in finance and welfare (cited 0) doi:
+- [RELEVANT] 2025 — Money, jobs or schooling? A model-based evaluation of economic strengthening in South Afri (cited 0) doi:10.1101/2025.05.25.25328300
+- [POOLING] 2016 — How Does Income Affect Fertility? An Analysis of Oportunidades, Mexico’s Conditional Cash  (cited 0) doi:
+- [RELEVANT] 2018 — Three Essays on Household Behavior and Labor Supply. (cited 0) doi:
+- [RELEVANT] 2026 — Essays on the Political Economy of Indigenous Welfare and Development in India (cited 0) doi:10.11575/prism/51358
+- [RELEVANT] 2017 — Análisis del impacto del programa de transferencias monetarias condicionadas Familias en A (cited 0) doi:
+- [POOLING] 2024 — The effect of Cash Conditional Transfer programs on teenage pregnancy : the case of Juntos (cited 0) doi:10.60644/4467
+- [RELEVANT] 2017 — Essays on the fertility and women in the labor market (cited 0) doi:10.7282/t3862kk2
+- [POOLING] 2021 — Urban Housing Prices and Migration's Fertility Intentions: Based on the 2018 China Migrant (cited 0) doi:10.48550/arxiv.2112.07273
+- [RELEVANT_HISTORICAL] 2026 — Forerunners and latecomers? Wealth, Status, and Fertility Differentials Among the Peasants (cited 0) doi:10.3917/adh1.151.0151
+- [POOLING] 2006 — Unintended Effects of Poverty Programmes on Childbearing in Less Developed Countries: Expe (cited 0) doi:
+- [RELEVANT] 2020 — The Effect of Unconditional Cash Transfer (UCT) on Household Behavior: Evidence from Iran (cited 0) doi:10.20381/ruor-24859
+- [RELEVANT] 2022 — Essays on Public Health Insurance and Child Health (cited 0) doi:10.57709/12531278
+- [RELEVANT] 2022 — Women as Catalysts for Human Development: Evidence from Pakistan (cited 0) doi:10.57709/18541397
